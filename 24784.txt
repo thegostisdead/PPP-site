@@ -1,0 +1,46 @@
+
+
+{
+    "Chef de projet web technique": [
+      { "Niveau d’études Requis": 5,
+        "Description": "Encadrer une équipe de développeurs web, analyser les besoin avec le cahier des charges, il est aussi un expert dans la gestion de relation client.",
+        "Catégorie": "Web - Internet",
+        "Salairedébut": 2900, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-web-mobile"
+      }
+    ],
+      "Administrateur de base de données": [
+      { "Niveau d’études Requis": 5,
+        "Description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+        "Catégorie": "Système - Base de donnée",
+        "Salairedébut": 2900, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+      }
+    ],
+      "Administrateur réseaux": [
+      { "Niveau d’études Requis": 5,
+        "Description": "Veille au bon fonctionnement des systèmes de télécommunication. Il réceptionne et installe les matériels informatique et télécommunication.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 2600, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+      }
+    ],
+      "Architecte réseaux": [
+      { "Niveau d’études Requis": 5,
+        "Description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 2900, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+      }
+    ],
+      "Chef de projet multimédia": [
+      { "Niveau d’études Requis": 5,
+        "Description": "Créer un site internet, un newsletter, réaliser un film d’entreprise, mener une campagne de publicité interactive.",
+        "Catégorie": "Système - Multimédia",
+        "Salairedébut": 2575, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-multimedia"
+      }
+    ]
+   
+   }
+  
