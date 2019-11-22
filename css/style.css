@@ -1,2 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+}
 
+header>h1 {
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
 
+header>nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto
+}
+
+header>nav>li {
+    list-style: none;
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+header>nav>li>a {
+    text-decoration: none;
+    color: black;
+}
