@@ -88,6 +88,30 @@
         "Salairedébut": 2900, 
         "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
       }
+    ],
+      "Administrateur de base de données": [
+      { "Niveau d’études Requis": 3,
+        "Description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+        "Catégorie": "Système - Base de donnée",
+        "Salairedébut": 2900, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+      }
+    ],
+      "Animateur/trice 2D et 3D": [
+      { "Niveau d’études Requis": 2,
+        "Description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+        "Catégorie": "Système - Animation",
+        "Salairedébut": 2900, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+      }
+    ],
+      "Hot liner": [
+      { "Niveau d’études Requis": 2,
+        "Description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+        "Catégorie": "Système - Animation",
+        "Salairedébut": 1521, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+      }
     ]
    
    }
