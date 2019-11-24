@@ -1,0 +1,101 @@
+{
+    "Chef de projet web technique": [{
+        "Niveau d’études Requis": 5,
+        "Description": "Encadrer une équipe de développeurs web, analyser les besoin avec le cahier des charges, il est aussi un expert dans la gestion de relation client.",
+        "Catégorie": "Web - Internet",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-web-mobile"
+    }],
+    "Administrateur de base de données": [{
+        "Niveau d’études Requis": 5,
+        "Description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+        "Catégorie": "Système - Base de donnée",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+    }],
+    "Administrateur réseaux": [{
+        "Niveau d’études Requis": 5,
+        "Description": "Veille au bon fonctionnement des systèmes de télécommunication. Il réceptionne et installe les matériels informatique et télécommunication.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 2600,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+    }],
+    "Architecte réseaux": [{
+        "Niveau d’études Requis": 5,
+        "Description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+    }],
+    "Chef de projet multimédia": [{
+        "Niveau d’études Requis": 5,
+        "Description": "Créer un site internet, un newsletter, réaliser un film d’entreprise, mener une campagne de publicité interactive.",
+        "Catégorie": "Système - Multimédia",
+        "Salairedébut": 2575,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-multimedia"
+    }],
+    "Data scientist": [{
+        "Niveau d’études Requis": 6,
+        "Description": "Analyser des grande quantité de donnée produit par les réseau.",
+        "Catégorie": "Système - Multimédia",
+        "Salairedébut": 3500,
+        "lien": "https://www.studyrama.com/formations/specialites/informatique-numerique/les-formations-au-big-data-101185"
+    }],
+    "Ingénieure cloud computing": [{
+        "Niveau d’études Requis": 6,
+        "Description": "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les entreprises dans leur mutation vers cette nouvelle tendance qui se généralise.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 3300,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing"
+    }],
+    "Administrateur de logiciel de laboratoire": [{
+        "Niveau d’études Requis": 3,
+        "Description": "Gestion des rendez-vous et de la remise des résultats, archivage des données, production des rapports d'analyses.",
+        "Catégorie": "Système - Base de donnée",
+        "Salairedébut": 2900,
+        "lien": "www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-logiciels-de-laboratoire"
+    }],
+    "Développeur d’application mobile": [{
+        "Niveau d’études Requis": 3,
+        "Description": "Le développeur d'applications mobiles est chargé de la réalisation technique d'une application.",
+        "Catégorie": "Web - Internet",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-d-applications-mobiles"
+    }],
+    "Développeur informatique": [{
+        "Niveau d’études Requis": 3,
+        "Description": "Expert des langages informatiques, le développeur informatique traduit la demande d'un client en lignes de code informatique.",
+        "Catégorie": "Système - Développement",
+        "Salairedébut": 2400,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-informatique"
+    }],
+    "Architecte réseaux": [{
+        "Niveau d’études Requis": 3,
+        "Description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
+        "Catégorie": "Système - Réseaux",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+    }],
+    "Administrateur de base de données": [{
+        "Niveau d’études Requis": 3,
+        "Description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+        "Catégorie": "Système - Base de donnée",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+    }],
+    "Animateur/trice 2D et 3D": [{
+        "Niveau d’études Requis": 2,
+        "Description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+        "Catégorie": "Système - Animation",
+        "Salairedébut": 2900,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+    }],
+    "Hot liner": [{
+        "Niveau d’études Requis": 2,
+        "Description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+        "Catégorie": "Système - Animation",
+        "Salairedébut": 1521,
+        "lien": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+    }]
+
+}
