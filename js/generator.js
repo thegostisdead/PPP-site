@@ -33,9 +33,19 @@ getJSON(JSONURL, function(err, data) {
         jsonObject = data
 
         console.log(jsonObject);
-        var myJSON = JSON.stringify(jsonObject);
-        console.log(myJSON);
-        console.log(jsonObject.[0])
+
+        for (let i = 0; i < jsonObject.length; i++) {
+            console.log(jsonObject[i])
+
+            html = "<\/dt>\r\n<dd class=\"accordion-content accordionItem is-collapsed\" id=\"accordion2\" aria-hidden=\"true\">\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut,\r\n                    iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. <\/p>\r\n                <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat\r\n                    tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.<\/p>\r\n            <\/dd>\r\n            <dt>\r\n          <a href=\"#accordion3\" aria-expanded=\"false\" aria-controls=\"accordion3\" class=\"accordion-title accordionTitle js-accordionTrigger\">\r\n " + jsonObject[i].name + "     <\/a>\r\n        <\/dt>"
+
+            var result = document.getElementById('search-result').innerHTML += html
+
+
+
+        }
+
+
     }
 });
 
