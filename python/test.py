@@ -14,7 +14,7 @@ if sys.argv[1] is not None and sys.argv[2] is not None:
 
     output = csv.writer(outputFile)
 
-    output.writerow(data[0].keys())  # header row
+    output.writerow(data[0].keys())
 
     for row in data:
         output.writerow(row.values())
