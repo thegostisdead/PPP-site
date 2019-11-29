@@ -19,7 +19,8 @@ header>nav {
     margin-left: auto
 }
 
-header>nav>li {
+header>nav>li 
+{
     list-style: none;
     font-size: 1.5em;
     margin-left: 1em;
@@ -27,127 +28,65 @@ header>nav>li {
     font-family: "Nunito Sans", Arial, sans-serif;
 }
 
-header>nav>li>a {
+header>nav>li>a 
+{
     text-decoration: none;
     color: black;
 }
-
-body>section {
+body>section 
+{
     display: flex;
 }
 
-body>section h2 {
+body>section h2 
+{
     font-size: 60px;
     font-weight: 900;
 }
 
-body>section img {
+body>section img 
+{
     margin-left: auto;
 }
 
-.wrapper {
-    /* The height needs to be set to a fixed value for the effect to work.
-   * 100vh is the full height of the viewport. */
-    height: 100vh;
-    /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
-    overflow-x: hidden;
-    /* Enable scrolling on the page. */
-    overflow-y: auto;
-    /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-    perspective: 2px;
-}
-
-.section {
+.section 
+{
     position: relative;
     height: 100vh;
     display: flex;
 }
 
-.parallax::after {
-    /* Display and position the pseudo-element */
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* Move the pseudo-element back away from the camera,
-   * then scale it back up to fill the viewport.
-   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
-    transform: translateZ(-1px) scale(1.5);
-    /* Force the background image to fill the whole element. */
-    background-size: 100%;
-    /* Keep the image from overlapping sibling elements. */
-    z-index: -1;
-}
-
-
-/* The styling for the static div. */
-
-.static {
+.static 
+{
     background-color: #6c63ff;
     color: white;
 }
 
-.first {
+main header
+{
     display: flex;
 }
 
-.first img {
+main header img 
+{
     margin-left: auto;
 }
 
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
-
-
-/* Collaped card métier */
-
-* {
-    box-sizing: border-box;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-body {
+body 
+{
     font-family: 'Lato';
 }
 
-.heading-primary {
+h3
+{
     font-size: 2em;
     padding: 2em;
     text-align: center;
 }
 
-.accordion dl,
-.accordion-list {
-    border: 1px solid #ddd;
-    &:after {
-        content: "";
-        display: block;
-        height: 1em;
-        width: 100%;
-        background-color: darken(#38cc70, 10%);
-    }
-}
-
-.accordion dd,
-.accordion__panel {
-    background-color: #eee;
-    font-size: 1em;
-    line-height: 1.5em;
-}
-
-.accordion p {
-    padding: 1em 2em 1em 2em;
-}
-
-.accordion {
-    position: relative;
-    background-color: #eee;
-}
-
-.container {
-    max-width: 960px;
+.container 
+{
     margin: 0 auto;
     padding: 2em 0 2em 0;
 }
