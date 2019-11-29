@@ -113,7 +113,3 @@
         "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
       }
     ]
-   
-   }
-   blablba
-  
