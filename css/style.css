@@ -1,19 +1,20 @@
-body,
 html {
     margin: 0;
     padding: 0;
 }
 
-header {
+header 
+{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 header>h1 {
     font-family: "Nunito Sans", Arial, sans-serif;
 }
 
-header>nav {
+header>nav 
+{
     display: flex;
     align-items: center;
     margin-left: auto
@@ -32,6 +33,14 @@ header>nav>li>a
 {
     text-decoration: none;
     color: black;
+}
+h2
+{
+  flex: 1 1 100%
+}
+header img 
+{
+    width: 30em
 }
 body>section 
 {
@@ -92,10 +101,10 @@ h3
 }
 
 
-.custom-select {
-    position: relative;
-    font-family: Arial;
-  }
+.custom-select 
+{
+  position: relative;
+}
   
   .custom-select select {
     display: none; /*hide original SELECT element:*/
