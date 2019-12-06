@@ -13,16 +13,16 @@
         <h1>Après votre DUT Info</h1>
         <nav>
             <li>
-                <a href="./index.html">Acceuil</a>
+                <a href="Acceuil.html">Acceuil</a>
             </li>
             <li>
-                <a href="./pages/recherches.html">Recherche</a>
+                <a href="category.html">Catégorie</a>
             </li>
             <li>
-                <a href="./pages/aide.html">Aide</a>
+                <a href="Aide.html">Aide</a>
             </li>
             <li>
-                <a href="./pages/a_propos.html">A propos</a>
+                <a href="A_propos.html">A propos</a>
             </li>
         </nav>
     </header>
@@ -30,21 +30,42 @@
     <main>
         <header>
             <h2>Rechercher quelle métier vous pouvez éxercer apres votre DUT</h2>
-            <img src="img/image.svg" alt="!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!">
+            <img src="img/image.svg" alt=""> <!--   TODO -->
+            
+            <span class="custom-dropdown">
+              <select>
+                  <option>Réseau</option>
+                  <option>Sécurité</option>  
+                  <option>Dévlopement</option>
+                  <option>Communication</option>
+              </select>
+          </span>
+          <span class="custom-dropdown">
+            <select>
+                <option>Bac +3</option>
+                <option>Bac +5 </option>  
+                <option>Bac + 6</option>
+      
+            </select>
+        </span>
+
+
         </header>
+     
         <section id="recherche" class="section static">
             <div class="container" id="search-result">
                 <h3>Résultat de la recherche</h3>
+
             </div>
 
         </section>
-        <section class="section">
-            <h1>Catégories</hi>
-        </section>
+
     </main>
+
     <script src="js/lib/jquery-3.4.1.min.js"></script>
     <script src="js/collapsed.js"></script>
     <script src="js/generator.js"></script>
+
 </body>
 
-</html> 
+</html>
