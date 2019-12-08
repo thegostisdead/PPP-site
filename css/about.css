@@ -3,7 +3,14 @@ body {
     flex-wrap: wrap;
 }
 
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
 .container {
+    flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 60em;
@@ -13,6 +20,7 @@ body {
 }
 
 #about {
+    flex-basis: 100%;
     background-color: #6c63ff;
 }
 
@@ -56,5 +64,6 @@ h2 {
 }
 
 .but {
+    flex-basis: 100%;
     background-color: #1abc9c;
 }
