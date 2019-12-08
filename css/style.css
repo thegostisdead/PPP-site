@@ -1,126 +1,77 @@
-html 
-{
+html {
     margin: 0;
     padding: 0;
 }
 
-header 
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-header>h1 {
-    font-family: "Nunito Sans", Arial, sans-serif;
-}
-
-header>nav 
-{
-    display: flex;
-    align-items: center;
-    margin-left: auto
-}
-
-header>nav>li 
-{
-    list-style: none;
-    font-size: 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    font-family: "Nunito Sans", Arial, sans-serif;
-}
-
-header>nav>li>a 
-{
-    text-decoration: none;
-    color: black;
-}
-h2
-{
-  flex: 1 1 100%
-}
-header img 
-{
-    width: 30em
-}
-.search_bar
-{
+.search_bar {
     margin: 5em
 }
-body>section 
-{
+
+body>section {
     display: flex;
 }
 
-body>section h2 
-{
+body>section h2 {
     font-size: 60px;
     font-weight: 900;
 }
 
-body>section img 
-{
+body>section img {
     margin-left: auto;
 }
 
-.section 
-{
+.section {
     position: relative;
     height: 100vh;
     display: flex;
 }
 
-.static 
-{
+.static {
     background-color: #6c63ff;
     color: white;
 }
 
-main header
-{
+main header {
     display: flex;
 }
 
-main header img 
-{
+main header img {
     margin-left: auto;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
-body 
-{
+body {
     font-family: 'Lato';
 }
 
-h3
-{
+h3 {
     font-size: 2em;
     padding: 2em;
     text-align: center;
 }
 
-.container 
-{
+.container {
     margin: 0 auto;
     padding: 2em 0 2em 0;
 }
 
-
-.custom-select 
-{
-  position: relative;
+.custom-select {
+    position: relative;
 }
-  
-  .custom-select select {
-    display: none; /*hide original SELECT element:*/
-  }
-  
-  .select-selected {
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element:*/
+}
+
+.select-selected {
     background-color: DodgerBlue;
-  }
-  
-  /*style the arrow inside the select element:*/
-  .select-selected:after {
+}
+
+
+/*style the arrow inside the select element:*/
+
+.select-selected:after {
     position: absolute;
     content: "";
     top: 14px;
@@ -129,39 +80,49 @@ h3
     height: 0;
     border: 6px solid transparent;
     border-color: #fff transparent transparent transparent;
-  }
-  
-  /*point the arrow upwards when the select box is open (active):*/
-  .select-selected.select-arrow-active:after {
+}
+
+
+/*point the arrow upwards when the select box is open (active):*/
+
+.select-selected.select-arrow-active:after {
     border-color: transparent transparent #fff transparent;
     top: 7px;
-  }
-  
-  /*style the items (options), including the selected item:*/
-  .select-items div,.select-selected {
+}
+
+
+/*style the items (options), including the selected item:*/
+
+.select-items div,
+.select-selected {
     color: #ffffff;
     padding: 8px 16px;
     border: 1px solid transparent;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;
-  }
-  
-  /*style items (options):*/
-  .select-items {
+}
+
+
+/*style items (options):*/
+
+.select-items {
     position: absolute;
     background-color: DodgerBlue;
     top: 100%;
     left: 0;
     right: 0;
     z-index: 99;
-  }
-  
-  /*hide the items when the select box is closed:*/
-  .select-hide {
+}
+
+
+/*hide the items when the select box is closed:*/
+
+.select-hide {
     display: none;
-  }
-  
-  .select-items div:hover, .same-as-selected {
+}
+
+.select-items div:hover,
+.same-as-selected {
     background-color: rgba(0, 0, 0, 0.1);
-  }
+}
