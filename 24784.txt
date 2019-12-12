@@ -112,5 +112,13 @@
         "Salairedébut": 1521, 
         "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
       }
+      ],
+      "Hot liner": [
+      { "Niveau d’études Requis": 2,
+        "Description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+        "Catégorie": "Système - Animation",
+        "Salairedébut": 1521, 
+        "lien":"http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+      }
+
     ]
-sqdsqddsq
