@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>PPP site - recherches</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/categories.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/categories.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Après votre DUT Info</h1>
+        <nav>
+            <li>
+                <a href="../index.html">Acceuil</a>
+            </li>
+            <li>
+                <a href="./recherches.html">Recherche</a>
+            </li>
+            <li>
+                <a href="./aide.html">Aide</a>
+            </li>
+            <li>
+                <a href="./a_propos.html">A propos</a>
+            </li>
+        </nav>
+    </header>
+    <main>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+        <section class="hero-section">
+            <div class="card-grid">
+                {% for metier in metiers %}
+                <a class="card" href="#">
+                    <div class="card__background" style="background-image: url({{image}})"></div>
+                    <div class="card__content">
+                        <p class="card__category">{{categorie}}</p>
+                        <h3 class="card__heading">{{nom_metier}}</h3>
+                    </div>
+                </a>
+                {% endfor %}
+                <div>
+        </section>
+    </main>
+</body>
+
+</html>
