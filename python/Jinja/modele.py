@@ -6,7 +6,7 @@ liens_importants = [
                     ('Onisep',"",'http://www.onisep.fr/'),
                     ('Studyrama',"",'http://www.studyrama.com'),
                     ('Diplomeo'," ",'https://diplomeo.com/'),
-                    ('Imaginetonfutur'," ",'https://www.imaginetonfutur.com/')
+                    ('Imaginetonfutur',"Sur imaginetonfutur retrouvez plus de 600 fiches métiers et des infos pratiques sur votre futur diplome",'https://www.imaginetonfutur.com/'),
                     ('','','')
                     ]
 
