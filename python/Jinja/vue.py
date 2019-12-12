@@ -5,7 +5,7 @@
 from jinja2 import * # ne pas modifier
 
 # Ajouter ici les éléments du modèles dont on a besoin
-from modele_Index import *
+from modele import *
 
 def creer_html(fichier_template, fichier_sortie,**infos):
     """
@@ -28,25 +28,24 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 
 
 
-<<<<<<< Updated upstream
 creer_html("template_index.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE INDEX
-            
+    categories = get_categories(),
+    niveaux = get_levels()        
             )
 
 creer_html("template_a_propos.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE A_PROPOS
-            
-            )
+    groupe = get_student(etudiants)
+    )
 
 creer_html("template_aide.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE AIDE
             
             )
 
 creer_html("template_categories.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE CATEGORIES
+    
             
             )
 
 creer_html("template_recherches.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE RECHERCHES
             
             )
-=======
->>>>>>> Stashed changes
