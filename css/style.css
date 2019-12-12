@@ -1,23 +1,24 @@
 html {
-    margin: 0;
+    margin: 2em;
     padding: 0;
 }
 
 .search_bar {
-    margin: 5em
+    margin: 8em;
+    flex: 1 1 40%
 }
 
 body>section {
     display: flex;
 }
 
-body>section h2 {
-    font-size: 60px;
-    font-weight: 900;
+h2 {
+  flex: 1 1 100%  
 }
 
-body>section img {
-    margin-left: auto;
+header img {
+    width: 25em;
+    ;
 }
 
 .section {
@@ -36,7 +37,7 @@ main header {
 }
 
 main header img {
-    margin-left: auto;
+    
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);

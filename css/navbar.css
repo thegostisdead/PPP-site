@@ -18,7 +18,7 @@ header>nav ul {
     flex-wrap: wrap;
 }
 
-header>nav>li {
+header>nav li {
     list-style: none;
     font-size: 1.5em;
     margin-left: 1em;
@@ -31,6 +31,3 @@ header>nav>li>a {
     color: black;
 }
 
-header img {
-    width: 30em
-}
