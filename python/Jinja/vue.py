@@ -5,7 +5,7 @@
 from jinja2 import * # ne pas modifier
 
 # Ajouter ici les éléments du modèles dont on a besoin
-from modele import *
+from modele_Index import *
 
 def creer_html(fichier_template, fichier_sortie,**infos):
     """
@@ -28,9 +28,22 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 
 
 
-creer_html("Pagination_0_template.html","./page/index.html",
-            liste_images = liste_des_images(dico_infos_pages,0),
-            navigation_page = navigation_page(dico_infos_pages,0),
-            page_agenere = 0,
+creer_html("template_index.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE INDEX
+            
             )
 
+creer_html("template_a_propos.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE A_PROPOS
+            
+            )
+
+creer_html("template_aide.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE AIDE
+            
+            )
+
+creer_html("template_categories.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE CATEGORIES
+            
+            )
+
+creer_html("template_recherches.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE RECHERCHES
+            
+            )
