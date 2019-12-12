@@ -28,6 +28,7 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 
 
 
+<<<<<<< Updated upstream
 creer_html("template_index.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE INDEX
             
             )
@@ -47,3 +48,5 @@ creer_html("template_categories.html","../../Pages_Genere/index.html", #GENERATI
 creer_html("template_recherches.html","../../Pages_Genere/index.html", #GENERATION DE LA PAGE RECHERCHES
             
             )
+=======
+>>>>>>> Stashed changes
