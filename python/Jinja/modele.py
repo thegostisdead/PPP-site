@@ -47,8 +47,8 @@ def get_categories():
 
 def get_levels():
     """
-    params : 
-    retourne : 
+    paramètre : 
+    retourne : un ensemble qui contient 
     """
     levels = set()
     for elem in csv_api.get_all_level_of_studies():
