@@ -4,7 +4,8 @@ html {
 }
 
 .search_bar {
-    margin: 8em;
+    margin-top: 11em;
+    margin-left: 4em;
     flex: 1 1 40%
 }
 
@@ -17,8 +18,8 @@ h2 {
 }
 
 header img {
-    width: 25em;
-    ;
+    width: 35em;
+    
 }
 
 .section {
