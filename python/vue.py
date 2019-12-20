@@ -37,7 +37,7 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 #     groupe = get_student(etudiants)
 #     )
 
-creer_html("template_aide.html","../pages/aide.html", #GENERATION DE LA PAGE AIDE
+creer_html("template_aide.html","../../pages/aide.html", #GENERATION DE LA PAGE AIDE
             liens_importants = liens_importants
             )
 
