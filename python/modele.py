@@ -69,6 +69,11 @@ def initialize():
     global data
     data = csv_to_dico(CSV_FILE)
 
+
+initialize()
+
+
+
 def get_all_name_jobs():
     """
     parametres :
@@ -76,7 +81,7 @@ def get_all_name_jobs():
     """
 
     res = [] 
-    for _, (name, _, _, _, _, _) in data.items():
+    for name, (_, _, _, _, _) in data.items():
         res.append(name)   
     return res
 
@@ -88,7 +93,7 @@ def get_all_level_of_studies():
     """
 
     res = [] 
-    for _, (_, level, _, _, _, _) in data.items():
+    for _, (level, _, _, _, _) in data.items():
         res.append(level)   
     return res
 
@@ -100,7 +105,7 @@ def get_all_description():
     """
 
     res = [] 
-    for _, (_, _, description, _, _, _) in data.items():
+    for _, (_, description, _, _, _) in data.items():
         res.append(description)   
     return res
 
@@ -112,7 +117,7 @@ def get_all_category():
     """
 
     res = [] 
-    for _, (_, _, _, category, _, _) in data.items():
+    for _, (_, _, category, _, _) in data.items():
         res.append(category)   
     return res
 
@@ -124,7 +129,7 @@ def get_all_money():
     """
 
     res = [] 
-    for _, (_, _, _, _, money, _) in data.items():
+    for _, (_, _, _, money, _) in data.items():
         res.append(money)   
     return res
 
@@ -136,7 +141,7 @@ def get_all_link():
     """
 
     res = [] 
-    for _, (_, _, _, _, _, link) in data.items():
+    for _, (_, _, _, _, link) in data.items():
         res.append(link)   
     return res
 

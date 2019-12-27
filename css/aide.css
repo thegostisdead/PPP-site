@@ -8,13 +8,14 @@
 }
 
 .carte {
-   position: relative;
-   padding-bottom: 3em;
-   border-radius: 1em;
-   max-width: 20em;
-   margin-right: 1.5em;
-   margin-bottom: 1.5em;
+    position: relative;
+    padding-bottom: 3em;
+    border-radius: 1em;
+    max-width: 20em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
 }
+
 .carte section {
     padding: 5% 5% 3% 5%;
 }
@@ -24,6 +25,7 @@
     height: 175px;
     overflow: hidden;
 }
+
 .carte h3 {
     background: rgba(157, 187, 63, 0.85);
     color: white;
@@ -50,15 +52,18 @@
     transition-timing-function: ease-in-out;
 }
 
-.carte:hover,.carte:focus {
+.carte:hover,
+.carte:focus {
     background: white;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
 }
 
-.carte:hover footer,.carte:focus footer {
+.carte:hover footer,
+.carte:focus footer {
     max-height: 1em;
 }
 
-img {
+.carte img {
     max-width: 100%;
+    margin: 0 auto;
 }

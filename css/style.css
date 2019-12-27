@@ -14,12 +14,11 @@ body>section {
 }
 
 h2 {
-  flex: 1 1 100%  
+    flex: 1 1 100%
 }
 
 header img {
-    width: 35em;
-    
+    width: 40em;
 }
 
 .section {
@@ -33,12 +32,12 @@ header img {
     color: white;
 }
 
-main header {
-    display: flex;
+.background-image {
+    flex-basis: 40%;
 }
 
-main header img {
-    
+main header {
+    display: flex;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);

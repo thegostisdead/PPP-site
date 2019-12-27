@@ -1,29 +1,29 @@
-footer{
+body>footer {
     background-color: black;
-    color : white;
+    color: white;
     display: flex;
     flex-wrap: wrap;
 }
 
-section{
+body>footer>section {
     margin: 3em;
 }
-img{
+
+body>footer>section>img {
     width: 3em;
     height: 3em;
 }
 
-.question{
+.question {
     display: flex;
     flex-wrap: wrap;
 }
 
-.question>*{
+.question>* {
     margin: 1.5em;
 }
 
-.pad{
+.pad {
     align-self: center;
     padding-bottom: 5em;
 }
-

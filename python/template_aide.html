@@ -10,64 +10,27 @@
 </head>
 
 <body>
-    <header>
-        <h1>Après votre DUT Info</h1>
-        <nav>
-            <li>
-                <a href="./index.html">Acceuil</a>
-            </li>
-            <li>
-                <a href="./recherches.html">Recherche</a>
-            </li>
-            <li>
-                <a href="./aide.html">Aide</a>
-            </li>
-            <li>
-                <a href="./a_propos.html">A propos</a>
-            </li>
-        </nav>
-    </header>
+    {% include "composant/nav.html" %}
     <h2>Des sites a visiter aussi</h2>
     <main>
         <section class="cartes">
             {% for (nom_site,description,lien_site,lien_image) in liens_importants %}
-            <a class="carte" href="{{lien_site}}" >
+            <a class="carte" href="{{lien_site}}">
                 <header>
                     <img src="{{lien_image}}" alt="   todo    ">
                     <h3>{{nom_site}}</h3>
                 </header>
                 <section>
-                   {{description}}
+                    {{description}}
                 </section>
                 <footer>
-                        {{lien_site}}
+                    {{lien_site}}
                 </footer>
             </a>
             {% endfor %}
         </section>
     </main>
-    <footer>
-        <section class="about">
-            <h2>À propos</h2>
-            <p class="alaligne">Un site fait par des étudiants, pour les étudiants</p>
-        </section>
-        <section class="membre">
-            <h2>Membre</h2>
-            <p>Jules Brossier</p>
-            <p>Sylvain Roc</p>
-            <p>Dorian Hardy</p>
-            <p>Simon Cavillon</p>
-        </section class="membre">
-        <section class="question">
-            <h2 class="ceh2">Des questions ?</h2>
-            <img src="localisation.jpg" alt="adresse">
-            <p class="pad">Adresse</p>
-            <img src="telephone.png" alt="telephone">
-            <p class="pad">Numéro</p>
-            <img src="enveloppe.png" alt="enveloppe">
-            <p class="pad">Adresse Mail</p>
-        </section>
-    </footer>
+    {% include "composant/footer.html" %}
 </body>
 
 </html>
