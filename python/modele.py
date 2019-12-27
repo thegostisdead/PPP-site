@@ -32,6 +32,7 @@ etudiants = {
 # traitement
 
 #  csv interaction
+CSV_FILE = "output.csv"
 
 def csv_to_dico(csv_file):
     """
@@ -39,7 +40,7 @@ def csv_to_dico(csv_file):
     resultat : un dictionnaire 
     """
 
-    reader = csv.reader(open('convertcsv.csv', 'r'))
+    reader = csv.reader(open(csv_file, 'r'))
     dico = {}
     for row in reader:
         (
@@ -61,26 +62,12 @@ def csv_to_dico(csv_file):
                 'link': link,
                 }
 
+    return dico
 
-def readCollum(collum_name, csv_filename):
-    """
-    parametres : collum_name : la collone a lire 
-                 csv_file : le fichier csv 
-    resultat : le text des collones 
-    commentaire : il faut éviter d'appeler cette fonction car elle est conteuse en ressource. 
-    """
-
-    with open(csv_filename, mode='r') as csv_file:
-        res = []
-        csv_reader = csv.DictReader(csv_file)
-        line_count = 0
-        for row in csv_reader:
-            if line_count == 0:
-                line_count += 1
-            res.append(row[collum_name])
-            line_count += 1
-        return res
-
+# fonction  d'initialisation, créer la variable global data, pour quelle soie accessible partout.
+def initialize():
+    global data
+    data = csv_to_dico(CSV_FILE)
 
 def get_all_name_jobs():
     """
@@ -88,7 +75,10 @@ def get_all_name_jobs():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('name', 'output.csv')
+    res = [] 
+    for _, (name, _, _, _, _, _) in data.items():
+        res.append(name)   
+    return res
 
 
 def get_all_level_of_studies():
@@ -97,7 +87,10 @@ def get_all_level_of_studies():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('level', 'output.csv')
+    res = [] 
+    for _, (_, level, _, _, _, _) in data.items():
+        res.append(level)   
+    return res
 
 
 def get_all_description():
@@ -106,7 +99,10 @@ def get_all_description():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('description', 'output.csv')
+    res = [] 
+    for _, (_, _, description, _, _, _) in data.items():
+        res.append(description)   
+    return res
 
 
 def get_all_category():
@@ -115,7 +111,10 @@ def get_all_category():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('category', 'output.csv')
+    res = [] 
+    for _, (_, _, _, category, _, _) in data.items():
+        res.append(category)   
+    return res
 
 
 def get_all_money():
@@ -124,7 +123,10 @@ def get_all_money():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('money', 'output.csv')
+    res = [] 
+    for _, (_, _, _, _, money, _) in data.items():
+        res.append(money)   
+    return res
 
 
 def get_all_link():
@@ -133,7 +135,10 @@ def get_all_link():
     resultat : le nom de tout les métiers
     """
 
-    return readCollum('link', 'output.csv')
+    res = [] 
+    for _, (_, _, _, _, _, link) in data.items():
+        res.append(link)   
+    return res
 
 
 #  filtre
