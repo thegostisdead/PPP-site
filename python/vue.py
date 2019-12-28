@@ -30,7 +30,8 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 
 creer_html("template_index.html","../pages/index.html", #GENERATION DE LA PAGE INDEX
     categories = get_all_category(),
-    niveaux = get_all_level_of_studies()    
+    niveaux = get_all_level_of_studies(),
+    jobs = data    
         
     )
 
@@ -39,15 +40,13 @@ creer_html("template_index.html","../pages/index.html", #GENERATION DE LA PAGE I
 #     )
 
 creer_html("template_aide.html","../pages/aide.html", #GENERATION DE LA PAGE AIDE
-            liens_importants = liens_importants
-            )
+    liens_importants = liens_importants
+)
 
-# creer_html("template_categories.html","pages/index.html", #GENERATION DE LA PAGE CATEGORIES
-    
-            
-#             )
+creer_html("template_categories.html","pages/categories.html", #GENERATION DE LA PAGE CATEGORIES
+)
 
-# creer_html("template_recherches.html","pages/index.html", #GENERATION DE LA PAGE RECHERCHES
+creer_html("template_a_propos","pages/a_propos.html", #GENERATION DE LA PAGE A Propos
             
-#             ) 
+) 
 

@@ -1,24 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 html {
     margin: 2em;
     padding: 0;
 }
 
-.search_bar {
-    margin-top: 11em;
-    margin-left: 4em;
-    flex: 1 1 40%
-}
-
 body>section {
     display: flex;
-}
-
-h2 {
-    flex: 1 1 100%
-}
-
-header img {
-    width: 40em;
 }
 
 .section {
@@ -32,15 +19,17 @@ header img {
     color: white;
 }
 
-.background-image {
-    flex-basis: 40%;
-}
-
-main header {
+.search_bar {
+    z-index: 10;
     display: flex;
+    background-color: #6c63ff;
+    margin-top: 11em;
+    margin-left: 30%;
+    height: max-content;
+    border-radius: 0.5em;
+    align-items: center;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 body {
     font-family: 'Lato';
 }
@@ -56,74 +45,31 @@ h3 {
     padding: 2em 0 2em 0;
 }
 
-.custom-select {
-    position: relative;
+#recherche {
+    flex-basis: 100%;
 }
 
-.custom-select select {
-    display: none;
-    /*hide original SELECT element:*/
+main header {
+    display: flex;
+    height: 60em;
 }
 
-.select-selected {
-    background-color: DodgerBlue;
-}
-
-
-/*style the arrow inside the select element:*/
-
-.select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
-}
-
-
-/*point the arrow upwards when the select box is open (active):*/
-
-.select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
-    top: 7px;
-}
-
-
-/*style the items (options), including the selected item:*/
-
-.select-items div,
-.select-selected {
-    color: #ffffff;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-}
-
-
-/*style items (options):*/
-
-.select-items {
-    position: absolute;
-    background-color: DodgerBlue;
-    top: 100%;
-    left: 0;
+.background-image {
+    top: 0;
     right: 0;
-    z-index: 99;
+    position: absolute;
+    z-index: -10;
 }
 
-
-/*hide the items when the select box is closed:*/
-
-.select-hide {
-    display: none;
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.select-items div:hover,
-.same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+h4 {
+    font-size: -webkit-xxx-large;
+}
+
+.description {
+    z-index: 2;
 }

@@ -166,3 +166,18 @@ def get_student(dico):
         return res
 
 
+def search(level,category):
+    """
+    paramertres : level, un string qui correspond au nombre d'étude voulu
+                  category, un string qui est la categorie a rechercher
+    resultat : une liste de métier
+    """
+    res = []
+    for (_,dico) in data.items():
+       if dico['level'] == level and dico["category"] == category :
+           print("match found ")
+           res.append(dico)
+    return res
+
+assert search("6","Système - Réseaux'") == [{'level': '6', 'description': "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les ent
+reprises dans leur mutation vers cette nouvelle tendance qui se généralise.", 'category': 'Système - Réseaux', 'money': '3300', 'link': 'http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing'}]

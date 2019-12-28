@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>PPP site </title>
-    <link rel="stylesheet" href="../css/style.css">
+
     <link rel="stylesheet" href="../css/dropdown.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/footer_ppp.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/select.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
@@ -30,32 +33,40 @@
             </li>
         </ul>
     </nav>
-</header>
-    <main>
+</header>    <main>
         <header>
             <h2>Rechercher quelle métier vous pouvez éxercer apres votre DUT</h2>
-            <div class="search_bar">
-                <span class="custom-dropdown">
+            <div class="desciption">
+                <h4>
+                    Choisissez votre niveaux d'études et une catégorie
+                </h4>
+                <div class="search_bar">
+                    <span class="custom-dropdown">
                     <select>
                                                     <option>Web - Internet</option>
-                                                    <option>Système - Réseaux</option>
-                                                    <option>Système - Base de donnée</option>
-                                                    <option>Système - Multimédia</option>
                                                     <option>Système - Animation</option>
                                                     <option>Système - Développement</option>
+                                                    <option>Système - Multimédia</option>
+                                                    <option>Système - Base de donnée</option>
+                                                    <option>Système - Réseaux</option>
                                             </select>
                 </span>
-                <span class="custom-dropdown">
+                    <span class="custom-dropdown">
                     <select>
+                                                    <option>Bac + 6</option>
+                                                    <option>Bac + 5</option>
                                                     <option>Bac + 3</option>
                                                     <option>Bac + 2</option>
-                                                    <option>Bac + 5</option>
-                                                    <option>Bac + 6</option>
                                             </select>
                 </span>
+                    <a href="" class="buttons flatbutt orange">Rechercher</a>
+                </div>
+
             </div>
-            <img class="backgroung-image" src="../img/image.svg" alt="backgroung-image">
-            <!--   TODO -->
+            <img class="backgroung-image" src="../img/image.svg" alt="backgroung-image" style="top: 0; right: 0; position: absolute;">
+
+            <!--   TODO trouver comment integrer le code css en le mettent dans une class sans casser la présentation -->
+
         </header>
 
         <section id="recherche" class="section static">
@@ -88,7 +99,7 @@
         <a>
             <p>Simon Cavillon</p>
         </a>
-    </section class="membre">
+    </section>
     <section class="question">
         <h2 class="ceh2">Des questions ?</h2>
         <img src="../img/localisation.jpg" alt="adresse">
@@ -98,8 +109,7 @@
         <img src="../img/enveloppe.png" alt="enveloppe">
         <p class="pad">Adresse Mail</p>
     </section>
-</footer>    <script src="js/lib/jquery-3.4.1.min.js"></script>
-
+</footer>
 </body>
 
 </html>

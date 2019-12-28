@@ -1,0 +1,37 @@
+.buttons {
+    width: 10em;
+    margin: 1em;
+    text-align: center;
+    font-weight: 500;
+    padding: 1em;
+}
+
+a.flatbutt {
+    background: #e26c3d;
+    border-radius: 3px;
+    color: #eee;
+    font-size: 90%;
+}
+
+a.raised {
+    background: #e26c3d;
+    border-radius: 3px;
+    color: #eee;
+    font-size: 90%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+
+/* ¡¡¡Color Section!!! */
+
+.buttons.orange {
+    background: tomato!important;
+}
+
+
+/* ¡¡¡Color Section!!! */
+
+.buttons.flat-three-d.orange {
+    border: 0;
+    border-bottom: 4px solid #12ab8d;
+}
