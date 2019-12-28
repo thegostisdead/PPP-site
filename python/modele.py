@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 import csv
@@ -99,7 +99,7 @@ def get_all_level_of_studies():
     """
 
     res = set()
-    for (_,dico) in data.items():
+    for (_, dico) in data.items():
         res.add(dico["level"])   
     return res
 
@@ -111,7 +111,7 @@ def get_all_description():
     """
 
     res = [] 
-    for (_,dico) in data.items():
+    for (_, dico) in data.items():
         res.append(dico["description"])   
     return res
 
@@ -123,7 +123,7 @@ def get_all_category():
     """
 
     res = set()
-    for (_,dico) in data.items():
+    for (_, dico) in data.items():
         res.add(dico["category"])   
     return res
 
@@ -135,7 +135,7 @@ def get_all_money():
     """
 
     res = [] 
-    for (_,dico) in data.items():
+    for (_, dico) in data.items():
         res.append(dico["money"])   
     return res
 
@@ -147,7 +147,7 @@ def get_all_link():
     """
 
     res = [] 
-    for (_,dico) in data.items():
+    for (_, dico) in data.items():
         res.append(dico["link"])   
     return res
 
@@ -166,7 +166,7 @@ def get_student(dico):
         return res
 
 
-def search(level,category):
+def search(level, category):
     """
     paramertres : level, un string qui correspond au nombre d'étude voulu
                   category, un string qui est la categorie a rechercher
