@@ -29,8 +29,8 @@ def creer_html(fichier_template, fichier_sortie,**infos):
 
 
 creer_html("template_index.html","../pages/index.html", #GENERATION DE LA PAGE INDEX
-    categories = get_categories(),
-    niveaux = get_levels()    
+    categories = get_all_category(),
+    niveaux = get_all_level_of_studies()    
         
     )
 

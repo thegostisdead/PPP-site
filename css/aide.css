@@ -22,12 +22,12 @@
 
 .carte header {
     position: relative;
-    height: 175px;
+    height: 20em;
     overflow: hidden;
 }
 
 .carte h3 {
-    background: rgba(157, 187, 63, 0.85);
+    background: #6c63ff;
     color: white;
     font-family: "Nunito Sans", Arial, sans-serif;
     text-transform: uppercase;
