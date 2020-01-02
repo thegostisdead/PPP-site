@@ -20,7 +20,6 @@ body>section {
 }
 
 .search_bar {
-    z-index: 10;
     display: flex;
     background-color: #6c63ff;
     margin-top: 11em;
@@ -28,6 +27,7 @@ body>section {
     height: max-content;
     border-radius: 0.5em;
     align-items: center;
+    width: min-content;
 }
 
 body {
