@@ -3,6 +3,7 @@ body>footer {
     color: white;
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 100%;
 }
 
 body>footer>section {

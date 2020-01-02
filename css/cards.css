@@ -1,0 +1,61 @@
+.card {
+    width: 15em;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    margin: 0.5em;
+}
+
+.card:hover {
+    margin-top: -10px;
+}
+.avatar img {
+    width: inherit;
+    border-radius: 50%;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    padding-top: 2em;
+    background-color: #FAFAFA;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .banner {
+    background-image: url("https://cdn.dribbble.com/users/247458/screenshots/5083720/wallpaper2.jpg");
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #F1F1F1;
+    border-radius: 100%;
+}
+
+
+.card h3,
+.card a,
+.card i {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    -webkit-transition: .1s ease-in-out;
+    transition: .1s ease-in-out;
+    color: #212121;
+    text-decoration: none;
+}
+
+.card h3 {
+    margin-top: 45px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #212121;
+}

@@ -24,14 +24,14 @@ liens_importants = [('Onisep',
                     'https://www.education.gouv.fr','../img/2018_MENJ_logo_horizontal_RVB_1019307.jpg')]
 
 etudiants = {
-    'Dorian Hardy': [('img',
-                     "Etudiant en 1ère année en DUT informatique.")],
-    'Jules Brossier': [('img',
-                       "Etudiant en 1ère année en DUT informatique.")],
-    'Simon Cavillon': [('img',
-                       "Etudiant en 1ère année en DUT informatique.")],
-    'Silvain Roc': [('img',
-                    "Etudiant en 1ère année en DUT informatique.")],
+    'Dorian Hardy': [('https://avatarfiles.alphacoders.com/173/173382.png',
+                     "Etudiant en 1ère année en DUT informatique.","hrdy.dorian@gmail.com","https://github.com/thegostisdead")],
+    'Jules Brossier': [('https://avatars2.githubusercontent.com/u/58080822?s=460&v=4',
+                       "Etudiant en 1ère année en DUT informatique.","jules.brossier@gmail.com","https://github.com/IronJulo")],
+    'Simon Cavillon': [('https://avatars2.githubusercontent.com/u/24855825?s=460&v=4',
+                       "Etudiant en 1ère année en DUT informatique.","simon.cavillon@gmail.com","https://github.com/Sueezen")],
+    'Silvain Roc': [('https://avatars0.githubusercontent.com/u/58080816?s=460&v=4',
+                    "Etudiant en 1ère année en DUT informatique.","silvain.roc@gmail.com","https://github.com/ElectroPuls")],
     }
 
 
@@ -178,6 +178,6 @@ def search(level, category):
            print("match found ")
            res.append(dico)
     return res
-
-assert search("6","Système - Réseaux'") == [{'level': '6', 'description': "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les ent
-reprises dans leur mutation vers cette nouvelle tendance qui se généralise.", 'category': 'Système - Réseaux', 'money': '3300', 'link': 'http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing'}]
+""" 
+assert search("6","Système - Réseaux'") == [{'level': '6', 'description': "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les ent reprises dans leur mutation vers cette nouvelle tendance qui se généralise.", 'category': 'Système - Réseaux', 'money': '3300', 'link': 'http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing'}] 
+"""

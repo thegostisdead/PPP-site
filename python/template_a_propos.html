@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/footer_ppp.css">
+    <link rel="stylesheet" href="../css/cards.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 
@@ -16,11 +17,17 @@
     <div class="page">
         <section id="about">
             <div class="container">
-                {% for (eleve, lien_photo, description ) in groupe %}
-                <div class="memberbox">
-                    <h2>{{eleve}}</h2>
-                    <img class="avatar" src=\ "{{lien}} "></img>
-                    <span class="quotation">{{description}}</span>
+                {% for eleve, val in groupe.items() %}
+                <div class="card">
+                    <div class="banner">
+                        <div class="avatar">
+                            <!-- TODO reformat this ugly code  -->
+                            <img src="{{val[0][0]}}" alt="eleve-{{name}}-image">
+                        </div>
+                    </div>
+                    <h3>{{eleve}}</h3>
+                    <a href="mailto:{{val[0][2]}}">📧{{val[0][2]}}</a>
+                    <a target="_blank" href="{{val[0][3]}}">🌐www.github.com</a>
                 </div>
                 {% endfor %}
 

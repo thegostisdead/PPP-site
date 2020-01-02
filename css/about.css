@@ -7,21 +7,29 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
+    justify-content: center;
 }
 
 .container {
     flex-basis: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 60em;
     min-width: 45em;
     margin: 0 auto;
-    padding: 0 2em;
+    justify-content:  space-between;
+
 }
 
 #about {
-    flex-basis: 100%;
+    display: flex;
+    flex-basis: auto;
+    padding-left: 2em;
+    border-right-width: 2em;
+    padding-right: 2em;
+    border-radius : 0.7em;
     background-color: #6c63ff;
+    margin-bottom:3em;
 }
 
 #about p {
@@ -32,38 +40,15 @@ body {
     text-align: justify;
 }
 
-.memberbox {
-    display: flex;
-    flex-basis: 40%;
-    overflow: hidden;
-    height: 10rem;
-    border-radius: 0.2em;
-    background: rgba(0, 0, 0, 0.2);
-    text-align: center;
-    margin: 0.5em;
-}
-
 h2 {
     color: #fff;
 }
 
-.avatar {
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    border-radius: 50%;
-}
-
-.quotation {
-    font-style: italic;
-    font-weight: bold;
-    color: #fff;
-    font-size: 1em;
-}
 
 .but {
+    border-radius: 0.7em;
+    margin-top:1em;
+    margin-bottom:1em;
     flex-basis: 100%;
     background-color: #1abc9c;
 }
