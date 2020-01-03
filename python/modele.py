@@ -34,6 +34,17 @@ etudiants = {
                     "Etudiant en 1ère année en DUT informatique.","silvain.roc@gmail.com","https://github.com/ElectroPuls")],
     }
 
+# Assignement des images pour chaques catégories pour les cards de la page categories 
+
+images_categorie = [
+    ("Système - Développement", "https://www.courb.net/wp-content/uploads/2019/05/web-development.jpg"),
+    ("Système - Animation" , "https://i.ytimg.com/vi/0U0uxls41ZI/maxresdefault.jpg"),
+    ("Système - Multimédia", "http://cpon.infocom-nancy.fr/wp-content/uploads/2017/01/HTFile.ashx_.jpg"),
+    ("Web - Internet", "https://cdn.radiofrance.fr/s3/cruiser-production/2019/03/303573cf-dbbe-4582-a841-a732aac5629b/838_webgettyimages-603713201.jpg"),
+    ("Système - Réseaux", "http://3supports.com.ng/wp-content/uploads/2018/12/data-cabling-1024x696.jpg"),
+    ("Système - Base de donnée","https://storage.googleapis.com/hackersandslackers-cdn/2019/07/sqlalchemy-queries@2x.jpg")
+]
+
 
 # traitement
 
@@ -78,6 +89,28 @@ def initialize():
 
 initialize()
 
+
+def get_image_by_key(nom_categorie): # TODO reformat this 
+    for elem in images_categorie :
+        if nom_categorie == elem[0]:
+            return elem[1]
+
+
+def get_all_category_card():
+    """
+    {
+        "cat1" : [9,img]
+    }
+    """
+    res = {}
+    for (nom,dictionnaire) in data.items():
+        if dictionnaire["category"] not in res :
+            res[dictionnaire["category"]] = [1,get_image_by_key(dictionnaire["category"])]
+
+        else:
+            res[dictionnaire["category"]][0] += 1 
+
+    return res
 
 
 def get_all_name_jobs():
@@ -126,7 +159,7 @@ def get_all_category():
     for (_, dico) in data.items():
         res.add(dico["category"])   
     return res
-
+     
 
 def get_all_money():
     """

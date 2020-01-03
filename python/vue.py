@@ -38,6 +38,7 @@ creer_html("template_aide.html", "../pages-dev/aide.html",
            )
 
 creer_html("template_categories.html", "../pages-dev/categories.html",  # GENERATION DE LA PAGE CATEGORIES
+            categories_liste = get_all_category_card()
            )
 
 creer_html("template_a_propos.html", "../pages-dev/a_propos.html",  # GENERATION DE LA PAGE A Propos

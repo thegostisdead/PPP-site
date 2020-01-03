@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>PPP site - recherches</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/categories.css">
     <link rel="stylesheet" href="../css/ionicons.min.css">
@@ -22,12 +21,12 @@
 
         <section class="hero-section">
             <div class="card-grid">
-                {% for metier in metiers %}
+                {% for categorie in categories_liste.items() %}
                 <a class="card" href="#">
-                    <div class="card__background" style="background-image: url({{image}})"></div>
+                    <div class="card__background" style="background-image: url({{categorie[1][1]}})"></div>
                     <div class="card__content">
-                        <p class="card__category">{{categorie}}</p>
-                        <h3 class="card__heading">{{nom_metier}}</h3>
+                        <p class="card__category">{{categorie[1][0]}} emplois</p>
+                        <h3 class="card__heading">{{categorie[0]}}</h3>
                     </div>
                 </a>
                 {% endfor %}
