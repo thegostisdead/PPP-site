@@ -8,17 +8,17 @@
 
 a.flatbutt {
     background: #e26c3d;
-    border-radius: 3px;
+    border-radius: 1em;
     color: #eee;
     font-size: 90%;
 }
 
 a.raised {
     background: #e26c3d;
-    border-radius: 3px;
+    border-radius: 1em;
     color: #eee;
     font-size: 90%;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.26);
 }
 
 

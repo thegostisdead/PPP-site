@@ -25,7 +25,10 @@
     height: 20em;
     overflow: hidden;
 }
-
+.carte img 
+{
+    width: 100%;
+}
 .carte h3 {
     background: #6c63ff;
     color: white;
