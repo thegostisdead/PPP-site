@@ -94,6 +94,7 @@ html {
 }
 
 .card__heading {
+    font-family: monospace;
     color: var(--text-lighter);
     font-size: 1.9rem;
     text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
