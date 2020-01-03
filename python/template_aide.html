@@ -6,6 +6,7 @@
     <title>PPP site - Aide</title>
     <link rel="stylesheet" href="../css/aide.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/footer_ppp.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -18,11 +19,11 @@
             {% for (nom_site,description,lien_site,lien_image) in liens_importants %}
             <a class="carte" href="{{lien_site}}">
                 <header>
-                    <img src="{{lien_image}}" alt="   todo    ">
+                    <img src="{{lien_image}}" alt="image{{nom_site}}">
                     <h3>{{nom_site}}</h3>
                 </header>
                 <section>
-                    {{description}}
+                    <p> {{description}}</p>
                 </section>
                 <footer>
                     {{lien_site}}

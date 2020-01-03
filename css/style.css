@@ -47,6 +47,11 @@ h3 {
 
 #recherche {
     flex-basis: 100%;
+    background-image: url("../img/undraw_freelancer_b0my.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 30%;
+    background-position-y: top;
 }
 
 main header {
@@ -68,6 +73,8 @@ main {
 
 h4 {
     font-size: -webkit-xxx-large;
+    font-size: xx-large;
+
 }
 
 .description {
