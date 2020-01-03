@@ -26,21 +26,21 @@ def creer_html(fichier_template, fichier_sortie, **infos):
 
 
 # GENERATION DE LA PAGE INDEX
-creer_html("template_index.html", "../pages-dev/index.html",
+creer_html("templates/template_index.html", "../pages-dev/index.html",
            categories = get_all_category(),
            niveaux = get_all_level_of_studies(),
            jobs = data
            )
 
 # GENERATION DE LA PAGE AIDE
-creer_html("template_aide.html", "../pages-dev/aide.html",
+creer_html("templates/template_aide.html", "../pages-dev/aide.html",
            liens_importants = liens_importants
            )
 
-creer_html("template_categories.html", "../pages-dev/categories.html",  # GENERATION DE LA PAGE CATEGORIES
+creer_html("templates/template_categories.html", "../pages-dev/categories.html",  # GENERATION DE LA PAGE CATEGORIES
             categories_liste = get_all_category_card()
            )
 
-creer_html("template_a_propos.html", "../pages-dev/a_propos.html",  # GENERATION DE LA PAGE A Propos
+creer_html("templates/template_a_propos.html", "../pages-dev/a_propos.html",  # GENERATION DE LA PAGE A Propos
             groupe = etudiants
            )
