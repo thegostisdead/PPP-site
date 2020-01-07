@@ -1,11 +1,9 @@
 html {
-    
     background-image: url("../img/fogg-teamwork.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 50em;
 }
-
 
 body {
     display: flex;
@@ -25,8 +23,7 @@ body {
     flex-wrap: wrap;
     max-width: 60em;
     margin: 0 auto;
-    justify-content:  space-between;
-
+    justify-content: space-between;
 }
 
 #about {
@@ -36,9 +33,9 @@ body {
     padding-left: 2em;
     border-right-width: 2em;
     padding-right: 2em;
-    border-radius : 0.7em;
+    border-radius: 0.7em;
     background-color: #6c63ff;
-    margin-bottom:3em;
+    margin-bottom: 3em;
 }
 
 #about p {
@@ -53,28 +50,27 @@ h2 {
     color: #000;
 }
 
-
 a:hover {
     color: #1abc9c
 }
+
 #about h2 {
     color: white;
     text-align: center;
 }
 
-
 .but {
     border-radius: 0.7em;
-    margin-top:1em;
-    margin-bottom:1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     flex-basis: 100%;
-    
 }
 
+
 /* pour les téléphone on met le bg en blanc car sinon on ne peut pas lire le text*/
-@media only screen and (max-width: 600px) {
-  .but {
-    background-color: white;
- 
-  }
+
+@media only screen and (max-width: 798px) {
+    .but {
+        background-color: white;
+    }
 }
