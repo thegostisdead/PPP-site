@@ -1,3 +1,12 @@
+html {
+    
+    background-image: url("../img/fogg-teamwork.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 50em;
+}
+
+
 body {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +53,10 @@ h2 {
     color: #000;
 }
 
+
+a:hover {
+    color: #1abc9c
+}
 #about h2 {
     color: white;
     text-align: center;
@@ -56,4 +69,12 @@ h2 {
     margin-bottom:1em;
     flex-basis: 100%;
     
+}
+
+/* pour les téléphone on met le bg en blanc car sinon on ne peut pas lire le text*/
+@media only screen and (max-width: 600px) {
+  .but {
+    background-color: white;
+ 
+  }
 }
