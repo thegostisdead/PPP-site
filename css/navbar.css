@@ -10,6 +10,7 @@ header h1 {
 }
 
 header nav {
+  
     display: flex;
     align-items: center;
     margin-left: auto
@@ -52,4 +53,4 @@ a:hover{
   padding: 0.2em;
   border-radius: 0.2em;
 }
-
+/*test*/
