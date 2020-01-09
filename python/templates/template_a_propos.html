@@ -32,16 +32,17 @@
             <div class="container">
                 <h2> Notre équipe</h2>
                 {% for eleve, val in groupe.items() %}
-                <div class="card" id="{{eleve}}">
+                {% set idelve = eleve.replace(" ","") %}
+                <div class="card" id="{{idelve}}">
                     <div class="banner ">
                         <div class="avatar ">
                             <!-- TODO reformat this ugly code  -->
-                            <img src="{{val[0][0]}} " alt="eleve-{{eleve}}-image ">
+                            <img src="{{val[0][0]}} " alt="eleve-image">
                         </div>
                     </div>
                     <h3>{{eleve}}</h3>
                     <a href="mailto:{{val[0][2]}} ">📧{{val[0][2]}}</a>
-                    <a target="_blank " href="{{val[0][3]}} ">🌐www.github.com</a>
+                    <a target="blank " href="{{val[0][3]}} ">🌐www.github.com</a>
                 </div>
                 {% endfor %}
 
