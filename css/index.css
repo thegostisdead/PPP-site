@@ -8,3 +8,23 @@ body {
 .cartes>p {
     text-decoration: none;
 }
+
+
+
+@media only screen and (max-width: 798px) {
+    main header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .desciption {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .search_bar{
+        display: flex;
+        flex-wrap: wrap;
+        margin:0em;
+    }
+}

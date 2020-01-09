@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PPP site - Categories</title>
+    <title>PPP site - Catégories</title>
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/categories.css">
     <link rel="stylesheet" href="../css/footer_ppp.css">
+    <link rel="stylesheet" href="../css/up-button.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    {% include "composant/nav.html" %}
+    {% include "components/page/nav.html" %}{% include "components/page/upbutton.html" %}
     <main>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
@@ -30,7 +32,8 @@
             </div>
         </section>
     </main>
-    {% include "composant/footer.html" %}
+    <script src="../python/components/js/upbutton.js"></script>
+    {% include "components/page/footer.html" %}
 </body>
 
 </html>

@@ -3,19 +3,21 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PPP site - a_propos</title>
+    <title>PPP site - A propos</title>
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/footer_ppp.css">
     <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/up-button.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- important, sans cette balise, les meta dans le css ne peuvent pas marcher -->
 </head>
 
 <body>
-    {% include "composant/nav.html" %}
+    {% include "components/page/nav.html" %} {% include "components/page/upbutton.html" %}
     <div class="page">
         <section class="but">
             <h2>Dans quel but ?</h2>
@@ -48,8 +50,8 @@
 
 
     </div>
-
-    {% include "composant/footer.html" %}
+    <script src="../python/components/js/upbutton.js"></script>
+    {% include "components/page/footer.html" %}
 
 </body>
 
