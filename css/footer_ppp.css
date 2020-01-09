@@ -48,6 +48,10 @@ footer a> p {
     flex-wrap: wrap;
 }
 
+footer h2{
+    color: white
+}
+
 footer a:hover {
     color: tomato;
 }

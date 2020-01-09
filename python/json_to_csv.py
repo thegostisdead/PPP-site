@@ -16,7 +16,7 @@ def convert(json_file, csv):
     print(data_dict)
     
 
-print(convert('../data/data.json','output.csv'))
+print(convert('../data/data.json','output2.csv'))
 
 
 

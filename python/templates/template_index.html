@@ -32,6 +32,7 @@
                     <span class="custom-dropdown">
                     <select>
                         {% for categorie in categories %}
+                            <option>Choisissez votre</option>
                             <option>{{categorie}}</option>
                         {% endfor %}
                     </select>
@@ -39,6 +40,7 @@
                     <span class="custom-dropdown">
                     <select>
                         {% for niveau in niveaux %}
+                            <option>Choisissez le niveau d'étude</option>
                             <option>Bac + {{niveau}}</option>
                         {% endfor %}
                     </select>

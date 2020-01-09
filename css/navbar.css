@@ -55,7 +55,7 @@ body>header>nav>a:hover {
 
 .hoverme:hover {
     background-color: tomato !important;
-    padding: 0.2em;
+    padding: : 0.4em;
     border-radius: 0.2em;
 }
 

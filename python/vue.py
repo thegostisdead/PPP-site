@@ -29,7 +29,8 @@ def creer_html(fichier_template, fichier_sortie, **infos):
 creer_html("templates/template_index.html", "../pages-dev/index.html",
            categories = get_all_category(),
            niveaux = get_all_level_of_studies(),
-           jobs = default_data
+           jobs = default_data,
+           search_data = get_all_job_card()
            )
 
 # GENERATION DE LA PAGE AIDE

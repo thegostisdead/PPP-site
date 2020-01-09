@@ -49,7 +49,7 @@ images_categorie = [
 # traitement
 
 #  csv interaction
-CSV_FILE = "../data/output.csv"
+CSV_FILE = "../data/convertcsv.csv"
 
 def csv_to_dico(csv_file):
     """

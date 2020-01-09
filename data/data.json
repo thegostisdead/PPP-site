@@ -1,191 +1,261 @@
 [{
-        "name": "Chef de projet web technique",
-        "level": 5,
-        "description": "Encadrer une équipe de développeurs web, analyser les besoin avec le cahier des charges, il est aussi un expert dans la gestion de relation client.",
-        "category": "Système - Réseaux",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-web-mobile"
+    "name": "Chef de projet web technique",
+    "level": 5,
+    "description": "Encadrer une équipe de développeurs web, analyser les besoin avec le cahier des charges, il est aussi un expert dans la gestion de relation client.",
+    "category": "Système - Réseaux",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-web-mobile"
 
-    },
-    {
-        "name": "Administrateur de base de données",
-        "level": 5,
-        "description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
-        "category": "Système - Base de donnée",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+},
+{
+    "name": "Administrateur de base de données",
+    "level": 5,
+    "description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+    "category": "Système - Base de donnée",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
 
-    },
-    {
-        "name": "Administrateur réseaux",
-        "level": 5,
-        "description": "Veille au bon fonctionnement des systèmes de télécommunication. Il réceptionne et installe les matériels informatique et télécommunication.",
-        "category": "Système - Réseaux",
-        "money": 2600,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+},
+{
+    "name": "Administrateur réseaux",
+    "level": 5,
+    "description": "Veille au bon fonctionnement des systèmes de télécommunication. Il réceptionne et installe les matériels informatique et télécommunication.",
+    "category": "Système - Réseaux",
+    "money": 2600,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
 
-    },
+},
 
-    {
-        "name": "Architecte réseaux",
-        "level": 5,
-        "description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
-        "category": "Système - Réseaux",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+{
+    "name": "Architecte réseaux",
+    "level": 5,
+    "description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
+    "category": "Système - Réseaux",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
 
-    },
+},
 
-    {
-        "name": "Chef de projet multimédia",
-        "level": 5,
-        "description": "Créer un site internet, un newsletter, réaliser un film d’entreprise, mener une campagne de publicité interactive.",
-        "category": "Système - Autres",
-        "money": 2575,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-multimedia"
+{
+    "name": "Chef de projet multimédia",
+    "level": 5,
+    "description": "Créer un site internet, un newsletter, réaliser un film d’entreprise, mener une campagne de publicité interactive.",
+    "category": "Système - Multimédia",
+    "money": 2575,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/chef-cheffe-de-projet-multimedia"
 
-    },
+},
 
-    {
-        "name": "Data scientist",
-        "level": 6,
-        "description": "Analyser des grande quantité de donnée produit par les réseau.",
-        "category": "Système - Base de donnée",
-        "money": 3500,
-        "link": "https://www.studyrama.com/formations/specialites/informatique-numerique/les-formations-au-big-data-101185"
-    },
+{
+    "name": "Data scientist",
+    "level": 6,
+    "description": "Analyser des grande quantité de donnée produit par les réseau.",
+    "category": "Système - Base de donnée",
+    "money": 3500,
+    "link": "https://www.studyrama.com/formations/specialites/informatique-numerique/les-formations-au-big-data-101185"
+},
 
-    {
-        "name": "Ingénieure cloud computing",
-        "level": 6,
-        "description": "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les entreprises dans leur mutation vers cette nouvelle tendance qui se généralise.",
-        "category": "Système - Réseaux",
-        "money": 3300,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing"
+{
+    "name": "Ingénieure cloud computing",
+    "level": 6,
+    "description": "Expert de la virtualisation des données en dehors de l'entreprise, et de leur stockage sécurisé sur des serveurs distants pour un accès depuis mobiles, tablettes ou postes de travail, l'ingénieur cloud computing accompagne les entreprises dans leur mutation vers cette nouvelle tendance qui se généralise.",
+    "category": "Système - Réseaux",
+    "money": 3300,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-cloud-computing"
 
-    },
+},
 
-    {
-        "name": "Administrateur de logiciel de laboratoire",
-        "level": 3,
-        "description": "Gestion des rendez-vous et de la remise des résultats, archivage des données, production des rapports d'analyses.",
-        "category": "Système - Base de donnée",
-        "money": 2900,
-        "link": "www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-logiciels-de-laboratoire"
+{
+    "name": "Administrateur de logiciel de laboratoire",
+    "level": 3,
+    "description": "Gestion des rendez-vous et de la remise des résultats, archivage des données, production des rapports d'analyses.",
+    "category": "Système - Base de donnée",
+    "money": 2900,
+    "link": "www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-logiciels-de-laboratoire"
 
-    },
+},
 
-    {
-        "name": "Développeur d’application mobile",
-        "level": 3,
-        "description": "Le développeur d'applications mobiles est chargé de la réalisation technique d'une application.",
-        "category": "Système - Développement",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-d-applications-mobiles"
+{
+    "name": "Développeur d’application mobile",
+    "level": 3,
+    "description": "Le développeur d'applications mobiles est chargé de la réalisation technique d'une application.",
+    "category": "Système - Développement",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-d-applications-mobiles"
 
-    },
+},
 
-    {
-        "name": "Développeur informatique",
-        "level": 3,
-        "description": "Expert des langages informatiques, le développeur informatique traduit la demande d'un clinkt en lignes de code informatique.",
-        "category": "Système - Développement",
-        "money": 2400,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-informatique"
+{
+    "name": "Développeur informatique",
+    "level": 3,
+    "description": "Expert des langages informatiques, le développeur informatique traduit la demande d'un clinkt en lignes de code informatique.",
+    "category": "Système - Développement",
+    "money": 2400,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-informatique"
 
-    },
+},
 
-    {
-        "name": "Architecte réseaux",
-        "level": 3,
-        "description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
-        "category": "Système - Réseaux",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
+{
+    "name": "Architecte réseaux",
+    "level": 3,
+    "description": "Conçoit, planifie, développe l’organisation générale des réseaux de télécommunication et supervise leurs mise en place.",
+    "category": "Système - Réseaux",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-reseaux "
 
-    },
-    {
-        "name": "Administrateur de base de données",
-        "level": 3,
-        "description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
-        "category": "Système - Base de donnée",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
+},
+{
+    "name": "Administrateur de base de données",
+    "level": 3,
+    "description": "Élabore, organise, optimise et supervise une ou plusieurs base de l’information internes à une entreprise.",
+    "category": "Système - Base de donnée",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/administrateur-administratrice-de-base-de-donnees"
 
-    },
-    {
-        "name": "Animateur/trice 2D et 3D",
-        "level": 2,
-        "description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
-        "category": "Système - Autres",
-        "money": 2900,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+},
+{
+    "name": "Animateur/trice 2D et 3D",
+    "level": 2,
+    "description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
+    "category": "Système - Multimédia",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
 
-    },
-    {
-        "name": "Hot liner",
-        "level": 2,
-        "description": "Maître du mouvement, l'animateur 2D et 3D intervient sur des films d'animation, des jeux vidéo ou des publicités.",
-        "category": "Système - Autres",
-        "money": 1521,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/animateur-animatrice-2D-et-3D"
+},
 
-    },
-    {
-        "name": "Testeur/Testeuse",
-        "level": 2,
-        "description": "Assure qu'une application correspond au cahier des charges, qu'elle ne détériore pas le système d'information, qu'elle est utilisable sur tous types de matériels informatiques et dans tous les cas d'utilisation.",
-        "category": "Système - Réseaux",
-        "money": 1700,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/testeur-testeuse"
+{
+    "name": "Testeur/Testeuse",
+    "level": 2,
+    "description": "Assure qu'une application correspond au cahier des charges, qu'elle ne détériore pas le système d'information, qu'elle est utilisable sur tous types de matériels informatiques et dans tous les cas d'utilisation.",
+    "category": "Système - Réseaux",
+    "money": 1700,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/testeur-testeuse"
 
-    },
-    {
-        "name": "Formateur/Formatrice Informatique",
-        "level": 3,
-        "description": "Forme les employés d'une entreprise à un nouveau logiciel ou à de nouvelles fonctionnalités mais aussi des ingénieurs qui doivent maîtriser des outils plus complexes.",
-        "category": "Système - Formation",
-        "money": 1675,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/testeur-testeuse"
+},
+{
+    "name": "Formateur/Formatrice Informatique",
+    "level": 3,
+    "description": "Forme les employés d'une entreprise à un nouveau logiciel ou à de nouvelles fonctionnalités mais aussi des ingénieurs qui doivent maîtriser des outils plus complexes.",
+    "category": "Système - Développement",
+    "money": 1675,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/testeur-testeuse"
 
-    },
-    {
-        "name": "Concepteur de niveau de jeu web",
-        "level": 3,
-        "description": "Faire progresser le joueur en lui faisant franchir des étapes, tout en dosant les difficultés et le rythme du jeu.",
-        "category": "Système - Développement",
-        "money": 1830,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
+},
+{
+    "name": "Concepteur de niveau de jeu web",
+    "level": 3,
+    "description": "Faire progresser le joueur en lui faisant franchir des étapes, tout en dosant les difficultés et le rythme du jeu.",
+    "category": "Système - Développement",
+    "money": 1830,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
 
-    },
-    {
-        "name": "Concepteur de jeux video",
-        "level": 3,
-        "description": "Teste et améliore le jeu, s'informe des attentes actuelles du public, de la concurrence et des nouveautés.",
-        "category": "Système - Développement",
-        "money": 1950,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
+},
+{
+    "name": "Concepteur de jeux video",
+    "level": 3,
+    "description": "Teste et améliore le jeu, s'informe des attentes actuelles du public, de la concurrence et des nouveautés.",
+    "category": "Système - Développement",
+    "money": 1950,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
 
-    },
-    {
-        "name": "Concepteur de jeux video",
-        "level": 3,
-        "description": "Teste et améliore le jeu, s'informe des attentes actuelles du public, de la concurrence et des nouveautés.",
-        "category": "Système - Développement",
-        "money": 1950,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
+},
+{
+    "name": "Concepteur de jeux video",
+    "level": 3,
+    "description": "Teste et améliore le jeu, s'informe des attentes actuelles du public, de la concurrence et des nouveautés.",
+    "category": "Système - Développement",
+    "money": 1950,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/concepteur-conceptrice-de-niveaux-de-jeu-web"
 
-    },
-    {
-        "name": "Ingénieur/e système",
-        "level": 5,
-        "description": "analyse, optimise et sécurise l'outil informatique de son entreprise afin que tous les utilisateurs disposent d'une installation adaptée et performante.",
-        "category": "Système - Développement",
-        "money": 2400,
-        "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-systeme"
+},
+{
+    "name": "Ingénieur/e système",
+    "level": 5,
+    "description": "analyse, optimise et sécurise l'outil informatique de son entreprise afin que tous les utilisateurs disposent d'une installation adaptée et performante.",
+    "category": "Système - Développement",
+    "money": 2400,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-systeme"
 
-    }
+},
+{
+    "name": "Ingénieur/e système",
+    "level": 5,
+    "description": "analyse, optimise et sécurise l'outil informatique de son entreprise afin que tous les utilisateurs disposent d'une installation adaptée et performante.",
+    "category": "Système - Développement",
+    "money": 2400,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/ingenieur-ingenieure-systeme"
 
-
-
+},
+{
+    "name": "Développeur/euse informatique",
+    "level": 2,
+    "description": "Les développeurs informatique traduisent la demande d'un client en programme informatique. Il savent s'adapter et élargir leurs compétences.",
+    "category": "Système - Développement",
+    "money": 2400,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-informatique"
+},
+{
+    "name": "Développeur(euse) d'applications mobiles",
+    "level": 2,
+    "description": "Le développeur d'applications mobiles est chargé de la réalisation technique d'une application, basée sur un cahier des charges.",
+    "category": "Système - Développement",
+    "money": 2900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/developpeur-developpeuse-d-applications-mobiles"
+},
+{
+    "name": "Informaticien(ne) industriel(le)",
+    "level": 2,
+    "description": "Le technicien et l'ingénieur en informatique industrielle participent à la conception, à la mise au point et à l'amélioration des logiciels qui commandent des systèmes automatisés de l’industrie.",
+    "category": "Système - Réseaux",
+    "money": 1500,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/informaticien-industriel-informaticienne-industrielle"
+},
+{
+    "name": "Intégrateur(trice) web",
+    "level": 2,
+    "description": "L'intégrateur web est chargé de monter les pages d'un site en réunissant l'ensemble des éléments décidés par le chef de projet : textes, images,etc. Il possède de bonne connaissance des langages informatiques et un sens artistique.",
+    "category": "Web - Internet",
+    "money": 2500,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/integrateur-integratrice-web"
+},
+{
+    "name": "Technicien(ne) de maintenance en informatique",
+    "level": 2,
+    "description": "Le technicien de maintenance en informatique est un personnage clé dans la plupart des entreprises du tertiaire, toutes équipées en outils informatiques. Très technique, son activité le met au contact du matériel, des utilisateurs et des informaticiens.",
+    "category": "Système - Réseaux",
+    "money": 1900,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/technicien-technicienne-de-maintenance-en-informatique"
+},
+{
+    "name": "Testeur(euse) en informatique",
+    "level": 2,
+    "description": "Le testeur est le spécialiste de la chasse aux bugs, ces erreurs qui empêchent le bon fonctionnement d'un logiciel. À lui de les signaler au service développement.",
+    "category": "Système - Multimédia",
+    "money": 1700,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/testeur-testeuse"
+},
+{
+    "name": "Traffic manager",
+    "level": 2,
+    "description": "Spécialiste de la publicité et de l'analyse statistique du comportement des internautes, le traffic manager définit la stratégie, supervise la réalisation technique et assure le suivi des campagnes promotionnelles en ligne.",
+    "category": "Système - Réseaux",
+    "money": 2000,
+    "link": "http://www.onisep.fr/Ressources/Univers-Metier/Metiers/traffic-manager"
+},
+{
+    "name": "Responsable de parc informatique",
+    "level": 2,
+    "description": "Le responsable de parc micro-informatique est un professionnel indispensable au sein d’une entreprise. En effet, il gère le bon fonctionnement des ordinateurs du personnel et se doit d’être toujours disponible pour régler tout problème",
+    "category": "Système - Réseaux",
+    "money": 2500,
+    "link": "https://diplomeo.com/formations-metier-pour-devenir-responsable_de_parc_informatique"
+},
+{
+    "name": "Administrateur de réseau",
+    "level": 2,
+    "description": "L’Administrateur réseau est un technicien employé par une entreprise qui possède un réseau informatique dont il a la charge. Il s’occupe de l’installation, de la configuration, puis de la gestion, de la maintenance du réseau et de sa protection.",
+    "category": "Système - Base de donnée",
+    "money": 2600,
+    "link": "https://diplomeo.com/formations-metier-pour-devenir-administrateur_de_reseau"
+}
 ]
