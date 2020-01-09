@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="../css/footer_ppp.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="../css/up-button.css">
     <link rel="stylesheet" href="../css/select.css">
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
             </li>
         </ul>
     </nav>
-</header>    <main>
+</header><button onclick="topFunction()" id="myBtn" title="Remonter en haut de la page">Haut</button>    <main>
         <header>
             <h2>Rechercher quelle métier vous pouvez éxercer apres votre DUT</h2>
             <div class="desciption">
@@ -46,12 +47,12 @@
                 <div class="search_bar">
                     <span class="custom-dropdown">
                     <select>
-                                                    <option>Web - Internet</option>
-                                                    <option>Système - Réseaux</option>
-                                                    <option>Système - Animation</option>
-                                                    <option>Système - Développement</option>
                                                     <option>Système - Base de donnée</option>
+                                                    <option>Système - Développement</option>
+                                                    <option>Système - Animation</option>
+                                                    <option>Web - Internet</option>
                                                     <option>Système - Multimédia</option>
+                                                    <option>Système - Réseaux</option>
                                             </select>
                 </span>
                     <span class="custom-dropdown">
@@ -77,42 +78,52 @@
         </section>
 
     </main>
-
+    <script src="../python/components/js/upbutton.js"></script>
     <footer>
     <section class="about">
         <h2>À propos</h2>
-        <p class="alaligne">Un site fait par des étudiants, pour les étudiants</p>
+        <p class="alaligne">Un site fait par des étudiants, pour les étudiants. Ce site a pour but de vous aidez à trouver un métier possible après avoir fait un DUT Informatique.</p>
     </section>
     <section class="membre">
-        <h2>Membre</h2>
+        <h2>Membres</h2>
 
-        <a>
+
+        <a href="a_propos.html">
             <p>Jules Brossier</p>
         </a>
-        <a>
-            <p>Sylvain Roc</p>
-        </a>
-        <a>
+
+
+        <a href="a_propos.html">
             <p>Dorian Hardy</p>
         </a>
-        <a>
+
+
+        <a href="a_propos.html">
+            <p>Sylvain Rock</p>
+        </a>
+
+
+        <a href="a_propos.html">
             <p>Simon Cavillon</p>
+
         </a>
     </section>
     <section class="question">
         <h2 class="ceh2">Des questions ?</h2>
-        <img src="../img/localisation.jpg" alt="adresse">
+        <img src="../img/icons8-marqueur-96.png" alt="adresse">
         <p class="pad">Adresse</p>
-        <img src="../img/telephone.png" alt="telephone">
+        <img src="../img/icons8-téléphone-96_ok.png" alt="telephone">
         <p class="pad">Numéro</p>
-        <img src="../img/enveloppe.png" alt="enveloppe">
+        <img src="../img/icons8-lettre-96_ok.png" alt="enveloppe">
         <p class="pad">Adresse Mail</p>
     </section>
 </footer>
+
 </body>
 <!-- 
     (\__/)
     (=''=) <(woooof)
     (")_(")
  -->
+
 </html>

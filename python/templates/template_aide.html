@@ -5,14 +5,16 @@
     <meta charset="utf-8">
     <title>PPP site - Aide</title>
     <link rel="stylesheet" href="../css/aide.css">
-    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/footer_ppp.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/up-button.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    {% include "composant/nav.html" %}
+    {% include "components/page/nav.html" %} {% include "components/page/upbutton.html" %}
     <h2>Des sites a visiter aussi</h2>
     <main>
         <section class="cartes">
@@ -34,7 +36,11 @@
             {% endfor %}
         </section>
     </main>
-    {% include "composant/footer.html" %}
+    <script src="../python/components/js/upbutton.js"></script>
+    {% include "components/page/footer.html" %}
+
+
+
 </body>
 
 </html>

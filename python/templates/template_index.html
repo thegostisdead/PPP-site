@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="../css/footer_ppp.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="../css/up-button.css">
     <link rel="stylesheet" href="../css/select.css">
     <link rel="stylesheet" href="../css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    {% include "composant/nav.html" %}
+    {% include "components/page/nav.html" %}{% include "components/page/upbutton.html" %}
     <main>
         <header>
             <h2>Rechercher quelle métier vous pouvez éxercer apres votre DUT</h2>
@@ -56,8 +57,9 @@
         </section>
 
     </main>
+    <script src="../python/components/js/upbutton.js"></script>
+    {% include "components/page/footer.html" %}
 
-    {% include "composant/footer.html" %}
 
 </body>
 <!-- 
@@ -65,4 +67,5 @@
     (=''=) <(woooof)
     (")_(")
  -->
+
 </html>

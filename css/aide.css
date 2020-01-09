@@ -36,7 +36,7 @@ main
     width: 100%;
 }
 .carte h3 {
-    background: #6c63ff;
+    background: #1abc9c;
     color: white;
     font-family: "Nunito Sans", Arial, sans-serif;
     text-transform: uppercase;
@@ -76,21 +76,20 @@ main
     max-width: 100%;
     margin: 0 auto;
 }
-
-a:link {
+body > a:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+body> a:visited {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+body> a:hover {
   text-decoration: underline;
 }
 
-a:active {
+body >  a:active {
   text-decoration: underline;
 }

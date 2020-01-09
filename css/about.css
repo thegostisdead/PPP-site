@@ -50,7 +50,7 @@ h2 {
     color: #000;
 }
 
-a:hover {
+.but a:hover {
     color: #1abc9c
 }
 
@@ -68,7 +68,7 @@ a:hover {
 }
 
 
-/* pour les téléphone on met le bg en blanc car sinon on ne peut pas lire le text*/
+/* pour les téléphones on met le bg en blanc car sinon on ne peut pas lire le text*/
 
 @media only screen and (max-width: 798px) {
     .but {

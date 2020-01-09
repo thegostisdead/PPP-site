@@ -4,10 +4,14 @@ body>footer {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
+    text-align: center;
 }
 
 body>footer>section {
+    display: flex;
+    flex-wrap: wrap;
     margin: 3em;
+    justify-content: center;
 }
 
 body>footer>section>img {
@@ -18,15 +22,32 @@ body>footer>section>img {
 .question {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.about {
+    flex-basis: 20%;
+}
+.about p {
+    flex-basis: 50%;
 }
 
 .question>* {
     margin: 1.5em;
 }
+.membre a {
+    flex-basis: 100%;
+}
 
+footer a> p {
+    color: white;
+}
 
-/* 
-.pad {
-    align-self: center;
-    padding-bottom: 5em;
-} */
+.membre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer a:hover {
+    color: tomato;
+}
