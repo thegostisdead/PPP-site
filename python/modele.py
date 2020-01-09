@@ -88,9 +88,9 @@ data = csv_to_dico(CSV_FILE)
 
 
 def get_image_by_key(nom_categorie): # TODO reformat this 
-    for elem in images_categorie :
-        if nom_categorie == elem[0]:
-            return elem[1]
+    for (nom,lien) in images_categorie :
+        if nom_categorie == nom:
+            return lien
 
 
 def get_all_category_card():
@@ -102,7 +102,7 @@ def get_all_category_card():
     res = {}
     for (nom,dictionnaire) in data.items():
         if dictionnaire["category"] not in res :
-            res[dictionnaire["category"]] = [1,get_image_by_key(dictionnaire["category"])]
+            res[dictionnaire["category"]] = [1, get_image_by_key(dictionnaire["category"])]
 
         else:
             res[dictionnaire["category"]][0] += 1 
