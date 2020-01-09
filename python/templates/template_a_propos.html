@@ -32,11 +32,11 @@
             <div class="container">
                 <h2> Notre équipe</h2>
                 {% for eleve, val in groupe.items() %}
-                <div class="card" id="{{name}}">
+                <div class="card" id="{{eleve}}">
                     <div class="banner ">
                         <div class="avatar ">
                             <!-- TODO reformat this ugly code  -->
-                            <img src="{{val[0][0]}} " alt="eleve-{{name}}-image ">
+                            <img src="{{val[0][0]}} " alt="eleve-{{eleve}}-image ">
                         </div>
                     </div>
                     <h3>{{eleve}}</h3>
