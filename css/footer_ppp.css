@@ -55,3 +55,11 @@ footer h2{
 footer a:hover {
     color: tomato;
 }
+
+@media only screen and (max-width: 798px) {
+    .about{
+        flex-basis: 100%;
+    }
+    
+}
+
