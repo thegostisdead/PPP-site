@@ -75,7 +75,7 @@
   }
 
 
-  @media (min-width: 640px) {
+  @media (min-width: 800px) {
     .blog-card {
       flex-direction: row;
       max-width: 700px;
@@ -91,7 +91,7 @@
   }
 
 
-   @media only screen and (max-width: 798px) {
+   @media only screen and (max-width: 800px) {
     .blog-card {
         flex-basis: 100%;
     }
