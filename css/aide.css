@@ -9,7 +9,8 @@
 main
 {
     background-color: #6c63ff;
-    border-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
 }
 .carte {
     position: relative;

@@ -33,9 +33,9 @@ body {
     padding-left: 2em;
     border-right-width: 2em;
     padding-right: 2em;
-    border-radius: 0.7em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
     background-color: #6c63ff;
-    margin-bottom: 3em;
 }
 
 #about p {
