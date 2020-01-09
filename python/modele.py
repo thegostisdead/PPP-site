@@ -82,12 +82,9 @@ def csv_to_dico(csv_file):
     return dico
 
 # fonction  d'initialisation, créer la variable global data, pour quelle soie accessible partout.
-def initialize():
-    global data
-    data = csv_to_dico(CSV_FILE)
+global data
+data = csv_to_dico(CSV_FILE)
 
-
-initialize()
 
 
 def get_image_by_key(nom_categorie): # TODO reformat this 
@@ -128,7 +125,7 @@ def get_all_name_jobs():
 def get_all_level_of_studies():
     """
     parametres : vide 
-    resultat : le nom de tout les métiers
+    resultat : l'ensemble des niveau d'études
     """
 
     res = set()
@@ -152,7 +149,7 @@ def get_all_description():
 def get_all_category():
     """
     parametres :
-    resultat : toute les catégories
+    resultat : toute les catégories sous la forme d'un ensemble
     """
 
     res = set()
@@ -164,7 +161,7 @@ def get_all_category():
 def get_all_money():
     """
     parametres :
-    resultat : le nom de tout les métiers
+    resultat : toute les salaires sous la forme d'une liste
     """
 
     res = [] 
@@ -176,7 +173,7 @@ def get_all_money():
 def get_all_link():
     """
     parametres :
-    resultat : le nom de tout les métiers
+    resultat : la liste de tout les liens
     """
 
     res = [] 
@@ -189,8 +186,8 @@ def get_all_link():
 
 def get_student(dico):
     """
-    parametres : 
-    resultat : 
+    parametres : dico, un dictionnaire  
+    resultat : une liste de tuples qui sont le nom, le lien de la photo de profile, et la description
     """
 
     res = []
