@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     /*! flex-basis: 30%; */
   }
-  .blog-card .description h1,
+  .blog-card .description h3,
   .blog-card .description h2 {
     font-family: Poppins, sans-serif;
   }
@@ -37,7 +37,7 @@
     margin: 0;
     font-size: 1.7rem;
   }
-  .blog-card .description h2 {
+  .blog-card .description h3 {
     font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -49,8 +49,6 @@
   }
   .blog-card .description .read-more a {
     color: #5ad67d;
-
-
   }
 
   .blog-card .description .read-more a:hover:after {
