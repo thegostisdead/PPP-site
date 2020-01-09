@@ -16,7 +16,7 @@ main
     position: relative;
     background-color: white;
     padding-bottom: 3em;
-    border-radius: 1em;
+    border-radius: 2em;
     max-width: 20em;
     margin-right: 1.5em;
     margin-bottom: 1.5em;
@@ -34,6 +34,7 @@ main
 .carte img 
 {
     width: 100%;
+    border-radius: 1.5em;
 }
 .carte h3 {
     background: #1abc9c;
