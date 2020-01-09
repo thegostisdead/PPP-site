@@ -29,13 +29,14 @@ def creer_html(fichier_template, fichier_sortie, **infos):
 creer_html("templates/template_index.html", "../pages-dev/index.html",
            categories = get_all_category(),
            niveaux = get_all_level_of_studies(),
-           jobs = data
+           jobs = default_data
            )
 
 # GENERATION DE LA PAGE AIDE
 creer_html("templates/template_aide.html", "../pages-dev/aide.html",
            liens_importants = liens_importants
            )
+
 
 creer_html("templates/template_categories.html", "../pages-dev/categories.html",  # GENERATION DE LA PAGE CATEGORIES
             categories_liste = get_all_category_card()

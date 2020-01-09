@@ -4,13 +4,16 @@ header {
     flex-basis: 100%;
 }
 
+.logo {
+    width: 5em;
+}
+
 header h1 {
     font-family: "Nunito Sans", Arial, sans-serif;
     flex: 1 1 50%;
 }
 
 header nav {
-  
     display: flex;
     align-items: center;
     margin-left: auto
@@ -29,52 +32,49 @@ header nav li {
     font-family: "Nunito Sans", Arial, sans-serif;
 }
 
-
-header > nav > a:link {
-  text-decoration: none;
+header>nav>a:link {
+    text-decoration: none;
 }
 
-header > nav > a:visited {
-  text-decoration: none;
+header>nav>a:visited {
+    text-decoration: none;
 }
 
-body > header > nav > a:hover{
-  color: white;
+body>header>nav>a:hover {
+    color: white;
 }
-
 
 .hoverme {
-  color: black;
-  transition: 0.3s;
+    color: black;
+    transition: 0.3s;
+}
+
+.hoverme a {
+    text-decoration-style: -moz-none;
 }
 
 .hoverme:hover {
-  background-color: tomato !important;
-  padding: 0.2em;
-  border-radius: 0.2em;
+    background-color: tomato !important;
+    padding: 0.2em;
+    border-radius: 0.2em;
 }
 
 @media only screen and (max-width: 798px) {
-    header nav{
+    header nav {
         background-color: #6c63ff;
         border-radius: 1em;
-      
     }
-      header nav ul a{
+    header nav ul a {
         color: white
-      
     }
-    header nav ul li{
+    header nav ul li {
         flex-basis: 100%;
     }
     header nav ul {
-            display: flex;
-            justify-content: center;
-            
+        display: flex;
+        justify-content: center;
     }
-    
-    header>  nav{
+    header>nav {
         margin-bottom: 0.5em;
     }
 }
-
