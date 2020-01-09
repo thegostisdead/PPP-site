@@ -24,8 +24,8 @@ header nav ul {
 header nav li {
     list-style: none;
     font-size: 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;
+    /*! margin-left: 1em; */
+    /*! /*! margin-right: 1em; */ */
     font-family: "Nunito Sans", Arial, sans-serif;
 }
 
@@ -53,4 +53,24 @@ a:hover{
   padding: 0.2em;
   border-radius: 0.2em;
 }
-/*test*/
+
+@media only screen and (max-width: 798px) {
+    header nav{
+        background-color: #6c63ff;
+        border-radius: 1em;
+      
+    }
+      header nav ul a{
+        color: white
+      
+    }
+    header nav ul li{
+        flex-basis: 100%;
+    }
+    header nav ul {
+            display: flex;
+            justify-content: center;
+            
+    }
+}
+
