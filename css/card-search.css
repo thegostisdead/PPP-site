@@ -38,11 +38,11 @@
     font-size: 1.7rem;
   }
   .blog-card .description h3 {
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #a2a2a2;
-    margin-top: 0.7em;
+    margin-top: 0em;
   }
   .blog-card .description .read-more {
     text-align: right;

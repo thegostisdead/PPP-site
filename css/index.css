@@ -8,9 +8,6 @@ body {
 .cartes>p {
     text-decoration: none;
 }
-
-
-
 @media only screen and (max-width: 798px) {
     main header{
         display: flex;
