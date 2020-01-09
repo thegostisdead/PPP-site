@@ -81,19 +81,44 @@ def csv_to_dico(csv_file):
 
     return dico
 
-# fonction  d'initialisation, créer la variable global data, pour quelle soie accessible partout.
-global data
-data = csv_to_dico(CSV_FILE)
+# fonction  d'initialisation, créer la variable global defaultdata, pour quelle soie accessible partout.
+global default_data
+default_data = csv_to_dico(CSV_FILE)
 
 
 
-def get_image_by_key(nom_categorie): # TODO reformat this 
+def get_image_by_key(nom_categorie): 
+    """
+    parametres : nom_categorie, une chaine de caractères, qui correspond a une categorie
+    resultat : le lien de l'image associée a la catégorie sous la forme d'un str
+    """
     for (nom,lien) in images_categorie :
         if nom_categorie == nom:
             return lien
 
 
-def get_all_category_card():
+def get_all_job_card(data=default_data):
+    """
+    parametres: data : La variable data représente notre dictionnaire qui comporte les informations de chaque métiers, ou il aura comme clés le nom du métier et sa valeur sera un autre dictionnaire contenant les informations.
+    resultat: Renvoi une liste de tuple contenant les informations de chaque métiers.
+    """
+    liste=[]
+    liste_tuple_metier=[]
+    for (metier, dico_info) in data.items():
+        liste_tuple_metier.append(metier)
+
+        for valeur in dico_info.values():
+            liste_tuple_metier.append(valeur)
+
+        liste.append(tuple(liste_tuple_metier))
+        liste_tuple_metier = []
+    return liste
+
+assert get_all_job_card({"developpeur": {"level": 3, "description": "Un métier d'avenir", "category": "Développement", "money": 2400, "link": "http://test.com"},"ingedb": {"level": 5, "description": "Un métier de BDD", "category": "Base de Donnée", "money": 2800, "link": "http://test.fr"}}) == [("developpeur", 3, "Un métier d'avenir", "Développement", 2400, "http://test.com"), ("ingedb", 5, "Un métier de BDD", "Base de Donnée", 2800, "http://test.fr")]
+
+
+
+def get_all_category_card(data=default_data):
     """
     {
         "cat1" : [9,img]
@@ -110,10 +135,10 @@ def get_all_category_card():
     return res
 
 
-def get_all_name_jobs():
+def get_all_name_jobs(data=default_data):
     """
-    parametres :
-    resultat : le nom de tout les métiers
+    parametres : data, un dictionnaire contenant les données
+    resultat : le nom de tout les métiers dans une liste
     """
 
     res = [] 
@@ -122,7 +147,7 @@ def get_all_name_jobs():
     return res
 
 
-def get_all_level_of_studies():
+def get_all_level_of_studies(data=default_data):
     """
     parametres : vide 
     resultat : l'ensemble des niveau d'études
@@ -134,9 +159,9 @@ def get_all_level_of_studies():
     return res
 
 
-def get_all_description():
+def get_all_description(data=default_data):
     """
-    parametres : vide 
+    parametres : data, un dictionnaire contenant les données
     resultat : toute les descriptions sous la forme de liste
     """
 
@@ -146,9 +171,9 @@ def get_all_description():
     return res
 
 
-def get_all_category():
+def get_all_category(data=default_data):
     """
-    parametres :
+    parametres : data, un dictionnaire contenant les données
     resultat : toute les catégories sous la forme d'un ensemble
     """
 
@@ -158,22 +183,11 @@ def get_all_category():
     return res
      
 
-def get_all_money():
-    """
-    parametres :
-    resultat : toute les salaires sous la forme d'une liste
-    """
 
-    res = [] 
-    for (_, dico) in data.items():
-        res.append(dico["money"])   
-    return res
-
-
-def get_all_link():
+def get_all_link(data=default_data):
     """
-    parametres :
-    resultat : la liste de tout les liens
+    parametres : data, un dictionnaire contenant les données
+    resultat : la liste de tout les liens dans une liste
     """
 
     res = [] 

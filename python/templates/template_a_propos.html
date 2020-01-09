@@ -21,27 +21,27 @@
     <div class="page">
         <section class="but">
             <h2>Dans quel but ?</h2>
-            <p>Ce site à pour but d'informer et de diriger les étudiants qui cherchent un métier avec un DUT informatique en poche. Pour les aider à mieux s'insérer dans le monde travail, les étudiants ont la possibilité de s'informer sur chaque métiers
-                en fontion de l'année d'étude, et du dommaine souhaité.</p>
+            <p>Ce site a pour but d'informer et de diriger les étudiants qui cherchent un métier avec un DUT informatique en poche. Pour les aider à mieux s'insérer dans le monde travail, les étudiants ont la possibilité de s'informer sur chaque métier en
+                fonction de l'année d'études, et du domaine souhaité.</p>
             <h2>Qui sommes nous ?</h2>
             <p>Nous sommes des étudiants en <a href="http://www.univ-orleans.fr/fr">DUT Informatique à Orléans</a></p>
-            <p>Ce site web constitu l'un de nos projets.</p>
+            <p>Ce site web constitue l'un de nos projets.</p>
         </section>
         <section id="about">
 
             <div class="container">
                 <h2> Notre équipe</h2>
                 {% for eleve, val in groupe.items() %}
-                <div class="card">
-                    <div class="banner">
-                        <div class="avatar">
+                <div class="card" id=" id=" {{name}} ">
+                    <div class="banner ">
+                        <div class="avatar ">
                             <!-- TODO reformat this ugly code  -->
-                            <img src="{{val[0][0]}}" alt="eleve-{{name}}-image">
+                            <img src="{{val[0][0]}} " alt="eleve-{{name}}-image ">
                         </div>
                     </div>
                     <h3>{{eleve}}</h3>
-                    <a href="mailto:{{val[0][2]}}">📧{{val[0][2]}}</a>
-                    <a target="_blank" href="{{val[0][3]}}">🌐www.github.com</a>
+                    <a href="mailto:{{val[0][2]}} ">📧{{val[0][2]}}</a>
+                    <a target="_blank " href="{{val[0][3]}} ">🌐www.github.com</a>
                 </div>
                 {% endfor %}
 
@@ -50,8 +50,8 @@
 
 
     </div>
-    <script src="../python/components/js/upbutton.js"></script>
-    {% include "components/page/footer.html" %}
+    <script src="../python/components/js/upbutton.js "></script>
+    {% include "components/page/footer.html " %}
 
 </body>
 

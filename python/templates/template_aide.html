@@ -21,7 +21,7 @@
             {% for (nom_site,description,lien_site,lien_image) in liens_importants %}
             <a class="carte" href="{{lien_site}}">
                 <header>
-                    <img src="{{lien_image}}" alt="image{{nom_site}}">
+                    <img src="{{lien_image}} " alt="image{{nom_site}} ">
                     <h3>{{nom_site}}</h3>
                 </header>
                 <section>
@@ -36,8 +36,8 @@
             {% endfor %}
         </section>
     </main>
-    <script src="../python/components/js/upbutton.js"></script>
-    {% include "components/page/footer.html" %}
+    <script src="../python/components/js/upbutton.js "></script>
+    {% include "components/page/footer.html " %}
 
 
 
