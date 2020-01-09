@@ -46,7 +46,7 @@
                         {% endfor %}
                     </select>
                 </span>
-                    <a href="" class="buttons flatbutt orange">Rechercher</a>
+                    <a href="" onclick="search()" class="buttons flatbutt orange">Rechercher</a>
                 </div>
 
             </div>
@@ -56,7 +56,7 @@
             <div class="container" id="search-result">
                 <h3>Résultat de la recherche</h3>
                     {% for (nom,level,decription,categorie,salaire,lien) in search_data %}
-                    <div class="blog-card">
+                    <div class="blog-card" value="{{categorie}};{{level}}">
 
                         <div class="description">
                           <h1>{{nom}}</h1>
@@ -74,6 +74,9 @@
     </main>
     <script src="../python/components/js/upbutton.js"></script>
     {% include "components/page/footer.html" %}
+    <script> 
+
+    </script>
 
 
 </body>

@@ -21,7 +21,7 @@
 
 <body>
     <header>
-    <a href="index.html"><img src="../img/logo.png" class="logo"></a>
+    <a href="index.html"><img src="../img/logo.png" class="logo" alt="logo"></a>
     <h1>Après votre DUT Info</h1>
     <nav>
         <ul>
@@ -51,10 +51,10 @@
                     <span class="custom-dropdown">
                     <select>
                         <option>Choisissez une catégorie</option>
+                                                    <option>Système - Développement</option>
                                                     <option>Web - Internet</option>
                                                     <option>Système - Base de donnée</option>
                                                     <option>Système - Multimédia</option>
-                                                    <option>Système - Développement</option>
                                                     <option>Système - Réseaux</option>
                                             </select>
                 </span>
@@ -62,12 +62,12 @@
                     <select>
                         <option>Choisissez le niveau d'étude</option>
                                                     <option>Bac + 3</option>
-                                                    <option>Bac + 6</option>
-                                                    <option>Bac + 5</option>
                                                     <option>Bac + 2</option>
+                                                    <option>Bac + 5</option>
+                                                    <option>Bac + 6</option>
                                             </select>
                 </span>
-                    <a href="" class="buttons flatbutt orange">Rechercher</a>
+                    <a href="" onclick="search()" class="buttons flatbutt orange">Rechercher</a>
                 </div>
 
             </div>
@@ -76,7 +76,7 @@
         <section id="recherche" class="section static">
             <div class="container" id="search-result">
                 <h3>Résultat de la recherche</h3>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;5">
 
                         <div class="description">
                           <h1>Chef de projet web technique</h1>
@@ -87,7 +87,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Base de donnée;3">
 
                         <div class="description">
                           <h1>Administrateur de base de données</h1>
@@ -98,7 +98,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;5">
 
                         <div class="description">
                           <h1>Administrateur réseaux</h1>
@@ -109,7 +109,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;3">
 
                         <div class="description">
                           <h1>Architecte réseaux</h1>
@@ -120,7 +120,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Multimédia;5">
 
                         <div class="description">
                           <h1>Chef de projet multimédia</h1>
@@ -131,7 +131,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Base de donnée;6">
 
                         <div class="description">
                           <h1>Data scientist</h1>
@@ -142,7 +142,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;6">
 
                         <div class="description">
                           <h1>Ingénieure cloud computing</h1>
@@ -153,7 +153,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Base de donnée;3">
 
                         <div class="description">
                           <h1>Administrateur de logiciel de laboratoire</h1>
@@ -164,7 +164,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;3">
 
                         <div class="description">
                           <h1>Développeur d’application mobile</h1>
@@ -175,7 +175,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;3">
 
                         <div class="description">
                           <h1>Développeur informatique</h1>
@@ -186,7 +186,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Multimédia;2">
 
                         <div class="description">
                           <h1>Animateur/trice 2D et 3D</h1>
@@ -197,7 +197,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;2">
 
                         <div class="description">
                           <h1>Testeur/Testeuse</h1>
@@ -208,7 +208,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;3">
 
                         <div class="description">
                           <h1>Formateur/Formatrice Informatique</h1>
@@ -219,7 +219,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;3">
 
                         <div class="description">
                           <h1>Concepteur de niveau de jeu web</h1>
@@ -230,7 +230,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;3">
 
                         <div class="description">
                           <h1>Concepteur de jeux video</h1>
@@ -241,7 +241,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;5">
 
                         <div class="description">
                           <h1>Ingénieur/e système</h1>
@@ -252,7 +252,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;2">
 
                         <div class="description">
                           <h1>Développeur/euse informatique</h1>
@@ -263,7 +263,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Développement;2">
 
                         <div class="description">
                           <h1>Développeur(euse) d'applications mobiles</h1>
@@ -274,7 +274,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;2">
 
                         <div class="description">
                           <h1>Informaticien(ne) industriel(le)</h1>
@@ -285,7 +285,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Web - Internet;2">
 
                         <div class="description">
                           <h1>Intégrateur(trice) web</h1>
@@ -296,7 +296,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;2">
 
                         <div class="description">
                           <h1>Technicien(ne) de maintenance en informatique</h1>
@@ -307,7 +307,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Multimédia;2">
 
                         <div class="description">
                           <h1>Testeur(euse) en informatique</h1>
@@ -318,7 +318,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;2">
 
                         <div class="description">
                           <h1>Traffic manager</h1>
@@ -329,7 +329,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Réseaux;2">
 
                         <div class="description">
                           <h1>Responsable de parc informatique</h1>
@@ -340,7 +340,7 @@
                           </p>
                         </div>
                       </div>
-                                        <div class="blog-card">
+                                        <div class="blog-card" value="Système - Base de donnée;2">
 
                         <div class="description">
                           <h1>Administrateur de réseau</h1>
@@ -364,25 +364,20 @@
     <section class="membre">
         <h2>Membres</h2>
 
-
-        <a href="a_propos.html#Jules Brossier">
+        <a href="a_propos.html#Jules%20Brossier">
             <p>Jules Brossier</p>
         </a>
 
-
-        <a href="a_propos.html#Dorian Hardy">
+        <a href="a_propos.html#Dorian%20Hardy">
             <p>Dorian Hardy</p>
         </a>
 
-
-        <a href="a_propos.html#Sylvain Roc">
+        <a href="a_propos.html#Sylvain%20Roc">
             <p>Sylvain Roc</p>
         </a>
 
-
-        <a href="a_propos.html#Simon Cavillon">
+        <a href="a_propos.html#Simon%20Cavillon"> 
             <p>Simon Cavillon</p>
-
         </a>
     </section>
     <section class="question">
@@ -394,7 +389,10 @@
         <img src="../img/icons8-lettre-96_ok.png" alt="enveloppe">
         <p class="pad">Adresse Mail</p>
     </section>
-</footer>
+</footer>    <script> 
+
+    </script>
+
 
 </body>
 <!-- 
