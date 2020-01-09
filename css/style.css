@@ -22,7 +22,7 @@ h2
 }
 .static {
     background-color: #6c63ff;
-    color: white;
+    /*! color: white; */
 }
 
 .search_bar {
@@ -47,8 +47,16 @@ h3 {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     padding: 2em 0 2em 0;
+}
+
+.container h3 {
+    color: white;
+    display: flex;
+    flex-basis: 100%;
 }
 
 #recherche {
@@ -58,6 +66,7 @@ h3 {
     background-position-x: left;
     background-size: 30%;
     background-position-y: top;
+    height: auto;
 }
 
 main header {
@@ -82,3 +91,4 @@ h4 {
     font-size: xx-large;
 
 }
+

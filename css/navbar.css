@@ -59,6 +59,9 @@ body>header>nav>a:hover {
     border-radius: 0.2em;
 }
 
+
+
+
 @media only screen and (max-width: 798px) {
     header nav {
         background-color: #6c63ff;
