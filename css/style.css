@@ -12,6 +12,8 @@ body>section {
     position: relative;
     height: 100vh;
     display: flex;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
 }
 h2
 {
